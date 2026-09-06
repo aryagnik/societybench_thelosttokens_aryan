@@ -1,0 +1,20 @@
+# SocietyBench — core runtime dependencies
+#
+# Minimum required to run the eval pipeline (Phase 1 onwards: web/media/merge/predict)
+# and to fetch a released event with `main.py --reproduce`.
+#
+# Assumes raw data (raw_web/articles.json + raw_media/valid_data_llm_verified.csv)
+# already exists. To crawl from scratch (Phase 0), also install
+# `requirements-crawl.txt`. To run the three agent baselines, also install
+# `requirements-agents.txt`.
+#
+# Python 3.10+ required.
+
+requests>=2.31
+huggingface_hub>=0.23      # main.py --reproduce: downloads one event from the dataset repo
+
+# Optional. predict_step0_prepare expands every entity rule to both Simplified and
+# Traditional Chinese spellings. Without opencc it falls back to a built-in
+# character map covering common entity-name characters; install opencc for full
+# general-purpose coverage.
+# opencc-python-reimplemented>=0.1.7

@@ -1,0 +1,41 @@
+{
+  "event_name": "Tesla strike in Texas 2025",
+  "rounds_executed": 3,
+  "total_sections": 2,
+  "kept": 0,
+  "failed": 2,
+  "round2_revised": 2,
+  "round3_revised": 2,
+  "nodes": [
+    {
+      "date": "2025-03-08",
+      "stage": "未分阶段（2025-03-08 ~ 2025-09-26）",
+      "selected_source": "merged_long_event",
+      "rewrite_mode": "round3_edge_close",
+      "hard_fail_tags": [
+        "gt_below_min_chars:113"
+      ],
+      "passed": false,
+      "original_chars": 100,
+      "refined_chars": 113,
+      "round3_tags": [
+        "gt_below_min_chars:69"
+      ]
+    },
+    {
+      "date": "2025-09-26",
+      "stage": "未分阶段（2025-03-08 ~ 2025-09-26）",
+      "selected_source": "merged_long_event",
+      "rewrite_mode": "round3_edge_close",
+      "hard_fail_tags": [
+        "gt_below_min_chars:126"
+      ],
+      "passed": false,
+      "original_chars": 97,
+      "refined_chars": 126,
+      "round3_tags": [
+        "gt_below_min_chars:125"
+      ]
+    }
+  ]
+}

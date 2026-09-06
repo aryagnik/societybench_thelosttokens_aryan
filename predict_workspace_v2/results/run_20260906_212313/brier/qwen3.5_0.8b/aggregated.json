@@ -1,0 +1,118 @@
+{
+  "model": "qwen3.5:0.8b",
+  "n_points": 1,
+  "batch_size": null,
+  "batch_size_source": "point_metadata",
+  "batch_size_by_point": {
+    "P01": null
+  },
+  "validity_policy": "retry4_3plus1dmx_fail_excluded_default_as_secondary",
+  "max_answer_attempts": 3,
+  "retry_wait_seconds": 60,
+  "fallback_filled_count": 0,
+  "answer_attempt_histogram": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "null": 3
+  },
+  "aggregated": {
+    "n": 0,
+    "n_total": 3,
+    "n_answered": 0,
+    "n_valid": 0,
+    "n_invalid": 3,
+    "avg_mae": null,
+    "weighted_mae": null,
+    "score_100": null,
+    "score_answered": null,
+    "score_with_default": 50.0,
+    "weighted_mae_with_default": 0.5,
+    "dmx_error_frac": 0.0,
+    "model_fail_frac": 1.0,
+    "invalid_frac": 1.0,
+    "prob_std": 0.0,
+    "score_100_raw": null,
+    "no_signal": false,
+    "default_frac": 1.0,
+    "default_fill_frac": 1.0,
+    "parse_fail_frac": 1.0,
+    "upstream_excluded_frac": 0.0
+  },
+  "per_point": {
+    "P01": {
+      "point_id": "P01",
+      "model": "qwen3.5:0.8b",
+      "cutoff_date": "2025-07-01",
+      "batch_size": null,
+      "batch_size_note": "unlimited",
+      "n": 3,
+      "n_total": 3,
+      "n_answered": 0,
+      "n_valid": 0,
+      "n_invalid": 3,
+      "accuracy": null,
+      "accuracy_pct": null,
+      "avg_mae": null,
+      "weighted_mae": null,
+      "score_100": null,
+      "score_answered": null,
+      "score_with_default": 50.0,
+      "weighted_mae_with_default": 0.5,
+      "dmx_error_frac": 0.0,
+      "model_fail_frac": 1.0,
+      "invalid_frac": 1.0,
+      "answer_attempt_histogram": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "null": 3
+      },
+      "attempt_records": [
+        {
+          "attempt": 1,
+          "requests": 1,
+          "asked": 3,
+          "answered": 0,
+          "still_missing": 3,
+          "parse_fail": 3,
+          "request_error": 0,
+          "quota_skipped": 0
+        },
+        {
+          "attempt": 2,
+          "requests": 1,
+          "asked": 3,
+          "answered": 0,
+          "still_missing": 3,
+          "parse_fail": 3,
+          "request_error": 0,
+          "quota_skipped": 0
+        },
+        {
+          "attempt": 3,
+          "requests": 1,
+          "asked": 3,
+          "answered": 0,
+          "still_missing": 3,
+          "parse_fail": 3,
+          "request_error": 0,
+          "quota_skipped": 0
+        }
+      ],
+      "max_answer_attempts": 3,
+      "retry_wait_seconds": 60,
+      "n_dmx_fail": 0,
+      "n_model_fail": 3,
+      "invalid_indices": [
+        0,
+        1,
+        2
+      ],
+      "valid_for_scoring": false,
+      "invalid_reason": "all_questions_invalid",
+      "validity_policy": "retry4_3plus1dmx_fail_excluded_default_as_secondary"
+    }
+  }
+}

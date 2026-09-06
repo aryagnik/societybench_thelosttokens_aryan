@@ -1,0 +1,18 @@
+{
+  "point_id": "P05",
+  "model": "gemma3:12b",
+  "events_total": 0,
+  "score_100": null,
+  "events": [],
+  "predictions": [],
+  "per_run": [],
+  "n_runs_completed": 0,
+  "density_check": {
+    "total_90d": 0,
+    "seg1": 0,
+    "seg2": 0,
+    "seg3": 0,
+    "raw_total": 9,
+    "status": "empty"
+  }
+}

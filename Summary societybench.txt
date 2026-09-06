@@ -1,0 +1,3 @@
+Cons of existing LLMs:
+(on 5 heterogenous events, 125 prediction points, in Chinese and English)
+- 75/100 against a trivial anchor of 50

@@ -1,0 +1,776 @@
+{
+  "point_id": "P12",
+  "model": "kimi-k2.5",
+  "cutoff_date": "2024-01-01",
+  "events_total": 15,
+  "events_scored": 0,
+  "weighted_mae_days": null,
+  "baseline_wmae": null,
+  "score_100": null,
+  "score_answered": null,
+  "score_with_default": 49.9,
+  "weighted_mae_with_default": 7.7,
+  "predictions": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "events": [
+    {
+      "eid": "E01",
+      "event_desc": "短视频平台上的一批内容创作者在联邦法院起诉，要求阻止一项要求平台母公司限期剥离否则全国禁用的法律，主张其侵犯受宪法保护的表达权。",
+      "gt_date": "2024-01-05",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 12.0,
+      "delta_days": 4,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E02",
+      "event_desc": "联邦法院公布挑战“剥离否则禁用”法律案件的快速审理时间表，明确关键提交节点与开庭安排。",
+      "gt_date": "2024-01-20",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 3.0,
+      "delta_days": 19,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E03",
+      "event_desc": "政府在相关诉讼中提交首份系统性答辩文件，强调数据与内容操控风险仍构成国家安全威胁并反对撤销法律。",
+      "gt_date": "2024-03-19",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 2.0,
+      "delta_days": 78,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E04",
+      "event_desc": "联邦政府与消费者隐私监管机构对该短视频平台及其母公司提起民事诉讼，指控其长期违规收集未成年儿童数据并违反隐私保护法律。",
+      "gt_date": "2024-03-25",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 8.0,
+      "delta_days": 84,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E13",
+      "event_desc": "平台宣布限制部分外国附属媒体账号在海外推荐流的传播并禁止其在本国以外投放广告",
+      "gt_date": "2024-01-14",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 3.0,
+      "delta_days": 13,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E14",
+      "event_desc": "平台着手开发本国独立版本核心算法，以隔离本国用户数据缓解数据安全担忧",
+      "gt_date": "2024-01-21",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 4.0,
+      "delta_days": 20,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E15",
+      "event_desc": "一名总统候选人正式入驻该短视频平台并发布首条视频，账号粉丝两天内突破数百万",
+      "gt_date": "2024-01-23",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 6.0,
+      "delta_days": 22,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E16",
+      "event_desc": "平台证实其私信功能遭零日漏洞攻击，导致多个品牌与名人账号被入侵，并称已采取封堵措施",
+      "gt_date": "2024-01-26",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 9.0,
+      "delta_days": 25,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E17",
+      "event_desc": "情报官员在法庭文件中首次公开指控平台曾应外国政府要求审查境外内容、并将用户数据存于境外服务器",
+      "gt_date": "2024-03-21",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 4.0,
+      "delta_days": 80,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E18",
+      "event_desc": "机构B向法院提交文件，系统阐述平台X构成国家安全威胁的具体指控细节",
+      "gt_date": "2024-03-20",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 3.0,
+      "delta_days": 79,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E19",
+      "event_desc": "机构M首席行政官发布内部通知，宣布在数周内禁止并移除管理设备上公司Y旗下的全部应用程序",
+      "gt_date": "2024-03-22",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 5.0,
+      "delta_days": 81,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E20",
+      "event_desc": "机构B与监管机构B向法院起诉平台X及其母公司公司Y，指控其非法收集儿童个人信息",
+      "gt_date": "2024-03-29",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 12.0,
+      "delta_days": 88,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E21",
+      "event_desc": "对照大公司地区W于本季度投入760万美元用于游说、创下其单季度游说支出最高纪录，对照大公司公司B同期支出400万美元并明确将相关法案列为游说议题；两家公司均否认针对平台X法案进行游说，但其游说时间线与法案推进高度重合。",
+      "gt_date": "2024-01-03",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 14.0,
+      "delta_days": 2,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E22",
+      "event_desc": "国家A一名房地产大亨、前某机构二十六老板人物六十三正式宣布，正与投资银行公司K合作组建财团竞购平台X国家A业务，计划重构平台、赋予用户对个人数字身份和数据更大控制权并迁移至数字开源协议，该方案获得多名技术专家支持；公司Y回应称无法在截止日期前完成出售、也不会出售其国家A业务。",
+      "gt_date": "2024-01-06",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 11.0,
+      "delta_days": 5,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E23",
+      "event_desc": "平台X与机构九联合向法院提交动议，要求加快审理针对该平台禁令的诉讼案件，并提议法院在限期前作出裁决、为可能的最高法院上诉留出时间；平台X在动议中重申强制剥离要求明显违宪、且在商业、技术和法律层面均不可行。",
+      "gt_date": "2024-01-11",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 6.0,
+      "delta_days": 10,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    }
+  ],
+  "per_run": [
+    {
+      "mae_days": null,
+      "weighted_mae_days": null,
+      "baseline_wmae": null,
+      "score_100": null,
+      "events_scored": 0,
+      "events_total": 15,
+      "sum_weights": 0,
+      "details": [
+        {
+          "id": "E01",
+          "event": "短视频平台上的一批内容创作者在联邦法院起诉，要求阻止一项要求平台母公司限期剥离否则全国禁用的法律，主张其侵犯受宪法保护的表达权。",
+          "date": "2024-01-05",
+          "group": 1,
+          "days_from_cutoff": 4,
+          "eid": "E01",
+          "event_desc": "短视频平台上的一批内容创作者在联邦法院起诉，要求阻止一项要求平台母公司限期剥离否则全国禁用的法律，主张其侵犯受宪法保护的表达权。",
+          "gt_date": "2024-01-05",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E02",
+          "event": "联邦法院公布挑战“剥离否则禁用”法律案件的快速审理时间表，明确关键提交节点与开庭安排。",
+          "date": "2024-01-20",
+          "group": 2,
+          "days_from_cutoff": 19,
+          "eid": "E02",
+          "event_desc": "联邦法院公布挑战“剥离否则禁用”法律案件的快速审理时间表，明确关键提交节点与开庭安排。",
+          "gt_date": "2024-01-20",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E03",
+          "event": "政府在相关诉讼中提交首份系统性答辩文件，强调数据与内容操控风险仍构成国家安全威胁并反对撤销法律。",
+          "date": "2024-03-19",
+          "group": 3,
+          "days_from_cutoff": 78,
+          "eid": "E03",
+          "event_desc": "政府在相关诉讼中提交首份系统性答辩文件，强调数据与内容操控风险仍构成国家安全威胁并反对撤销法律。",
+          "gt_date": "2024-03-19",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E04",
+          "event": "联邦政府与消费者隐私监管机构对该短视频平台及其母公司提起民事诉讼，指控其长期违规收集未成年儿童数据并违反隐私保护法律。",
+          "date": "2024-03-25",
+          "group": 4,
+          "days_from_cutoff": 84,
+          "eid": "E04",
+          "event_desc": "联邦政府与消费者隐私监管机构对该短视频平台及其母公司提起民事诉讼，指控其长期违规收集未成年儿童数据并违反隐私保护法律。",
+          "gt_date": "2024-03-25",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E13",
+          "event": "平台宣布限制部分外国附属媒体账号在海外推荐流的传播并禁止其在本国以外投放广告",
+          "date": "2024-01-14",
+          "group": 1,
+          "days_from_cutoff": 13,
+          "eid": "E13",
+          "event_desc": "平台宣布限制部分外国附属媒体账号在海外推荐流的传播并禁止其在本国以外投放广告",
+          "gt_date": "2024-01-14",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E14",
+          "event": "平台着手开发本国独立版本核心算法，以隔离本国用户数据缓解数据安全担忧",
+          "date": "2024-01-21",
+          "group": 2,
+          "days_from_cutoff": 20,
+          "eid": "E14",
+          "event_desc": "平台着手开发本国独立版本核心算法，以隔离本国用户数据缓解数据安全担忧",
+          "gt_date": "2024-01-21",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E15",
+          "event": "一名总统候选人正式入驻该短视频平台并发布首条视频，账号粉丝两天内突破数百万",
+          "date": "2024-01-23",
+          "group": 3,
+          "days_from_cutoff": 22,
+          "eid": "E15",
+          "event_desc": "一名总统候选人正式入驻该短视频平台并发布首条视频，账号粉丝两天内突破数百万",
+          "gt_date": "2024-01-23",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E16",
+          "event": "平台证实其私信功能遭零日漏洞攻击，导致多个品牌与名人账号被入侵，并称已采取封堵措施",
+          "date": "2024-01-26",
+          "group": 4,
+          "days_from_cutoff": 25,
+          "eid": "E16",
+          "event_desc": "平台证实其私信功能遭零日漏洞攻击，导致多个品牌与名人账号被入侵，并称已采取封堵措施",
+          "gt_date": "2024-01-26",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E17",
+          "event": "情报官员在法庭文件中首次公开指控平台曾应外国政府要求审查境外内容、并将用户数据存于境外服务器",
+          "date": "2024-03-21",
+          "group": 5,
+          "days_from_cutoff": 80,
+          "eid": "E17",
+          "event_desc": "情报官员在法庭文件中首次公开指控平台曾应外国政府要求审查境外内容、并将用户数据存于境外服务器",
+          "gt_date": "2024-03-21",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E18",
+          "event": "机构B向法院提交文件，系统阐述平台X构成国家安全威胁的具体指控细节",
+          "date": "2024-03-20",
+          "group": 1,
+          "days_from_cutoff": 79,
+          "eid": "E18",
+          "event_desc": "机构B向法院提交文件，系统阐述平台X构成国家安全威胁的具体指控细节",
+          "gt_date": "2024-03-20",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E19",
+          "event": "机构M首席行政官发布内部通知，宣布在数周内禁止并移除管理设备上公司Y旗下的全部应用程序",
+          "date": "2024-03-22",
+          "group": 2,
+          "days_from_cutoff": 81,
+          "eid": "E19",
+          "event_desc": "机构M首席行政官发布内部通知，宣布在数周内禁止并移除管理设备上公司Y旗下的全部应用程序",
+          "gt_date": "2024-03-22",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E20",
+          "event": "机构B与监管机构B向法院起诉平台X及其母公司公司Y，指控其非法收集儿童个人信息",
+          "date": "2024-03-29",
+          "group": 3,
+          "days_from_cutoff": 88,
+          "eid": "E20",
+          "event_desc": "机构B与监管机构B向法院起诉平台X及其母公司公司Y，指控其非法收集儿童个人信息",
+          "gt_date": "2024-03-29",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E21",
+          "event": "对照大公司地区W于本季度投入760万美元用于游说、创下其单季度游说支出最高纪录，对照大公司公司B同期支出400万美元并明确将相关法案列为游说议题；两家公司均否认针对平台X法案进行游说，但其游说时间线与法案推进高度重合。",
+          "date": "2024-01-03",
+          "group": 1,
+          "days_from_cutoff": 2,
+          "eid": "E21",
+          "event_desc": "对照大公司地区W于本季度投入760万美元用于游说、创下其单季度游说支出最高纪录，对照大公司公司B同期支出400万美元并明确将相关法案列为游说议题；两家公司均否认针对平台X法案进行游说，但其游说时间线与法案推进高度重合。",
+          "gt_date": "2024-01-03",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E22",
+          "event": "国家A一名房地产大亨、前某机构二十六老板人物六十三正式宣布，正与投资银行公司K合作组建财团竞购平台X国家A业务，计划重构平台、赋予用户对个人数字身份和数据更大控制权并迁移至数字开源协议，该方案获得多名技术专家支持；公司Y回应称无法在截止日期前完成出售、也不会出售其国家A业务。",
+          "date": "2024-01-06",
+          "group": 2,
+          "days_from_cutoff": 5,
+          "eid": "E22",
+          "event_desc": "国家A一名房地产大亨、前某机构二十六老板人物六十三正式宣布，正与投资银行公司K合作组建财团竞购平台X国家A业务，计划重构平台、赋予用户对个人数字身份和数据更大控制权并迁移至数字开源协议，该方案获得多名技术专家支持；公司Y回应称无法在截止日期前完成出售、也不会出售其国家A业务。",
+          "gt_date": "2024-01-06",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E23",
+          "event": "平台X与机构九联合向法院提交动议，要求加快审理针对该平台禁令的诉讼案件，并提议法院在限期前作出裁决、为可能的最高法院上诉留出时间；平台X在动议中重申强制剥离要求明显违宪、且在商业、技术和法律层面均不可行。",
+          "date": "2024-01-11",
+          "group": 3,
+          "days_from_cutoff": 10,
+          "eid": "E23",
+          "event_desc": "平台X与机构九联合向法院提交动议，要求加快审理针对该平台禁令的诉讼案件，并提议法院在限期前作出裁决、为可能的最高法院上诉留出时间；平台X在动议中重申强制剥离要求明显违宪、且在商业、技术和法律层面均不可行。",
+          "gt_date": "2024-01-11",
+          "pred_date": null,
+          "error_days": null
+        }
+      ]
+    }
+  ],
+  "per_run_with_default": [
+    {
+      "mae_days": 6.8,
+      "weighted_mae_days": 7.7,
+      "baseline_wmae": 7.67,
+      "score_100": 49.91,
+      "events_scored": 15,
+      "events_total": 15,
+      "sum_weights": 7.5568,
+      "details": [
+        {
+          "id": "E01",
+          "event": "短视频平台上的一批内容创作者在联邦法院起诉，要求阻止一项要求平台母公司限期剥离否则全国禁用的法律，主张其侵犯受宪法保护的表达权。",
+          "date": "2024-01-05",
+          "group": 1,
+          "days_from_cutoff": 4,
+          "eid": "E01",
+          "event_desc": "短视频平台上的一批内容创作者在联邦法院起诉，要求阻止一项要求平台母公司限期剥离否则全国禁用的法律，主张其侵犯受宪法保护的表达权。",
+          "gt_date": "2024-01-05",
+          "pred_date": "2024-01-17",
+          "error_days": 12,
+          "weight": 0.8621
+        },
+        {
+          "id": "E02",
+          "event": "联邦法院公布挑战“剥离否则禁用”法律案件的快速审理时间表，明确关键提交节点与开庭安排。",
+          "date": "2024-01-20",
+          "group": 2,
+          "days_from_cutoff": 19,
+          "eid": "E02",
+          "event_desc": "联邦法院公布挑战“剥离否则禁用”法律案件的快速审理时间表，明确关键提交节点与开庭安排。",
+          "gt_date": "2024-01-20",
+          "pred_date": "2024-01-17",
+          "error_days": 3,
+          "weight": 0.5682
+        },
+        {
+          "id": "E03",
+          "event": "政府在相关诉讼中提交首份系统性答辩文件，强调数据与内容操控风险仍构成国家安全威胁并反对撤销法律。",
+          "date": "2024-03-19",
+          "group": 3,
+          "days_from_cutoff": 78,
+          "eid": "E03",
+          "event_desc": "政府在相关诉讼中提交首份系统性答辩文件，强调数据与内容操控风险仍构成国家安全威胁并反对撤销法律。",
+          "gt_date": "2024-03-19",
+          "pred_date": "2024-03-17",
+          "error_days": 2,
+          "weight": 0.2427
+        },
+        {
+          "id": "E04",
+          "event": "联邦政府与消费者隐私监管机构对该短视频平台及其母公司提起民事诉讼，指控其长期违规收集未成年儿童数据并违反隐私保护法律。",
+          "date": "2024-03-25",
+          "group": 4,
+          "days_from_cutoff": 84,
+          "eid": "E04",
+          "event_desc": "联邦政府与消费者隐私监管机构对该短视频平台及其母公司提起民事诉讼，指控其长期违规收集未成年儿童数据并违反隐私保护法律。",
+          "gt_date": "2024-03-25",
+          "pred_date": "2024-03-17",
+          "error_days": 8,
+          "weight": 0.2294
+        },
+        {
+          "id": "E13",
+          "event": "平台宣布限制部分外国附属媒体账号在海外推荐流的传播并禁止其在本国以外投放广告",
+          "date": "2024-01-14",
+          "group": 1,
+          "days_from_cutoff": 13,
+          "eid": "E13",
+          "event_desc": "平台宣布限制部分外国附属媒体账号在海外推荐流的传播并禁止其在本国以外投放广告",
+          "gt_date": "2024-01-14",
+          "pred_date": "2024-01-17",
+          "error_days": 3,
+          "weight": 0.6579
+        },
+        {
+          "id": "E14",
+          "event": "平台着手开发本国独立版本核心算法，以隔离本国用户数据缓解数据安全担忧",
+          "date": "2024-01-21",
+          "group": 2,
+          "days_from_cutoff": 20,
+          "eid": "E14",
+          "event_desc": "平台着手开发本国独立版本核心算法，以隔离本国用户数据缓解数据安全担忧",
+          "gt_date": "2024-01-21",
+          "pred_date": "2024-01-17",
+          "error_days": 4,
+          "weight": 0.5556
+        },
+        {
+          "id": "E15",
+          "event": "一名总统候选人正式入驻该短视频平台并发布首条视频，账号粉丝两天内突破数百万",
+          "date": "2024-01-23",
+          "group": 3,
+          "days_from_cutoff": 22,
+          "eid": "E15",
+          "event_desc": "一名总统候选人正式入驻该短视频平台并发布首条视频，账号粉丝两天内突破数百万",
+          "gt_date": "2024-01-23",
+          "pred_date": "2024-01-17",
+          "error_days": 6,
+          "weight": 0.5319
+        },
+        {
+          "id": "E16",
+          "event": "平台证实其私信功能遭零日漏洞攻击，导致多个品牌与名人账号被入侵，并称已采取封堵措施",
+          "date": "2024-01-26",
+          "group": 4,
+          "days_from_cutoff": 25,
+          "eid": "E16",
+          "event_desc": "平台证实其私信功能遭零日漏洞攻击，导致多个品牌与名人账号被入侵，并称已采取封堵措施",
+          "gt_date": "2024-01-26",
+          "pred_date": "2024-01-17",
+          "error_days": 9,
+          "weight": 0.5
+        },
+        {
+          "id": "E17",
+          "event": "情报官员在法庭文件中首次公开指控平台曾应外国政府要求审查境外内容、并将用户数据存于境外服务器",
+          "date": "2024-03-21",
+          "group": 5,
+          "days_from_cutoff": 80,
+          "eid": "E17",
+          "event_desc": "情报官员在法庭文件中首次公开指控平台曾应外国政府要求审查境外内容、并将用户数据存于境外服务器",
+          "gt_date": "2024-03-21",
+          "pred_date": "2024-03-17",
+          "error_days": 4,
+          "weight": 0.2381
+        },
+        {
+          "id": "E18",
+          "event": "机构B向法院提交文件，系统阐述平台X构成国家安全威胁的具体指控细节",
+          "date": "2024-03-20",
+          "group": 1,
+          "days_from_cutoff": 79,
+          "eid": "E18",
+          "event_desc": "机构B向法院提交文件，系统阐述平台X构成国家安全威胁的具体指控细节",
+          "gt_date": "2024-03-20",
+          "pred_date": "2024-03-17",
+          "error_days": 3,
+          "weight": 0.2404
+        },
+        {
+          "id": "E19",
+          "event": "机构M首席行政官发布内部通知，宣布在数周内禁止并移除管理设备上公司Y旗下的全部应用程序",
+          "date": "2024-03-22",
+          "group": 2,
+          "days_from_cutoff": 81,
+          "eid": "E19",
+          "event_desc": "机构M首席行政官发布内部通知，宣布在数周内禁止并移除管理设备上公司Y旗下的全部应用程序",
+          "gt_date": "2024-03-22",
+          "pred_date": "2024-03-17",
+          "error_days": 5,
+          "weight": 0.2358
+        },
+        {
+          "id": "E20",
+          "event": "机构B与监管机构B向法院起诉平台X及其母公司公司Y，指控其非法收集儿童个人信息",
+          "date": "2024-03-29",
+          "group": 3,
+          "days_from_cutoff": 88,
+          "eid": "E20",
+          "event_desc": "机构B与监管机构B向法院起诉平台X及其母公司公司Y，指控其非法收集儿童个人信息",
+          "gt_date": "2024-03-29",
+          "pred_date": "2024-03-17",
+          "error_days": 12,
+          "weight": 0.2212
+        },
+        {
+          "id": "E21",
+          "event": "对照大公司地区W于本季度投入760万美元用于游说、创下其单季度游说支出最高纪录，对照大公司公司B同期支出400万美元并明确将相关法案列为游说议题；两家公司均否认针对平台X法案进行游说，但其游说时间线与法案推进高度重合。",
+          "date": "2024-01-03",
+          "group": 1,
+          "days_from_cutoff": 2,
+          "eid": "E21",
+          "event_desc": "对照大公司地区W于本季度投入760万美元用于游说、创下其单季度游说支出最高纪录，对照大公司公司B同期支出400万美元并明确将相关法案列为游说议题；两家公司均否认针对平台X法案进行游说，但其游说时间线与法案推进高度重合。",
+          "gt_date": "2024-01-03",
+          "pred_date": "2024-01-17",
+          "error_days": 14,
+          "weight": 0.9259
+        },
+        {
+          "id": "E22",
+          "event": "国家A一名房地产大亨、前某机构二十六老板人物六十三正式宣布，正与投资银行公司K合作组建财团竞购平台X国家A业务，计划重构平台、赋予用户对个人数字身份和数据更大控制权并迁移至数字开源协议，该方案获得多名技术专家支持；公司Y回应称无法在截止日期前完成出售、也不会出售其国家A业务。",
+          "date": "2024-01-06",
+          "group": 2,
+          "days_from_cutoff": 5,
+          "eid": "E22",
+          "event_desc": "国家A一名房地产大亨、前某机构二十六老板人物六十三正式宣布，正与投资银行公司K合作组建财团竞购平台X国家A业务，计划重构平台、赋予用户对个人数字身份和数据更大控制权并迁移至数字开源协议，该方案获得多名技术专家支持；公司Y回应称无法在截止日期前完成出售、也不会出售其国家A业务。",
+          "gt_date": "2024-01-06",
+          "pred_date": "2024-01-17",
+          "error_days": 11,
+          "weight": 0.8333
+        },
+        {
+          "id": "E23",
+          "event": "平台X与机构九联合向法院提交动议，要求加快审理针对该平台禁令的诉讼案件，并提议法院在限期前作出裁决、为可能的最高法院上诉留出时间；平台X在动议中重申强制剥离要求明显违宪、且在商业、技术和法律层面均不可行。",
+          "date": "2024-01-11",
+          "group": 3,
+          "days_from_cutoff": 10,
+          "eid": "E23",
+          "event_desc": "平台X与机构九联合向法院提交动议，要求加快审理针对该平台禁令的诉讼案件，并提议法院在限期前作出裁决、为可能的最高法院上诉留出时间；平台X在动议中重申强制剥离要求明显违宪、且在商业、技术和法律层面均不可行。",
+          "gt_date": "2024-01-11",
+          "pred_date": "2024-01-17",
+          "error_days": 6,
+          "weight": 0.7143
+        }
+      ]
+    }
+  ],
+  "n_runs_completed": 1,
+  "answer_attempt_histogram": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "null": 15
+  },
+  "attempt_records": [
+    {
+      "run": 1,
+      "attempt": 1,
+      "asked": 15,
+      "answered": 0,
+      "still_missing": 15,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 2,
+      "asked": 15,
+      "answered": 0,
+      "still_missing": 15,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 3,
+      "asked": 15,
+      "answered": 0,
+      "still_missing": 15,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 4,
+      "asked": 15,
+      "answered": 0,
+      "still_missing": 15,
+      "request_error": 1
+    }
+  ],
+  "max_answer_attempts": 3,
+  "retry_wait_seconds": 60,
+  "runs_per_point": 1,
+  "n_dmx_fail": 15,
+  "n_model_fail": 0,
+  "dmx_error_frac": 1.0,
+  "model_fail_frac": 0.0,
+  "invalid_frac": 1.0,
+  "validity_policy": "1run_retry4_3plus1dmx_fail_excluded_default_as_secondary",
+  "density_check": {
+    "total_90d": 15,
+    "seg1": 9,
+    "seg2": 0,
+    "seg3": 6,
+    "status": "weak"
+  }
+}

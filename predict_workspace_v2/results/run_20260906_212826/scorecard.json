@@ -1,0 +1,85 @@
+{
+  "workspace": "../predict_workspace_v2",
+  "run_dir": "../predict_workspace_v2/results/run_20260906_212826",
+  "config_used": {
+    "scoring_calibration": {
+      "formula": "weighted_mae_vs_uniform_50_pct",
+      "time_factor_coefficient": 0.04,
+      "_time_factor_note": "w_time = 1 / (1 + coef * delta_days_to_resolution)",
+      "window_factor_offset": 4,
+      "_window_factor_note": "w_window = W / (W + offset)",
+      "baseline_uniform_predictor_wmae": 1.0,
+      "_baseline_note": "零分线=1.0：全程蒙50%(误差0.5)得50分、完美得100、自信全猜反(误差1.0)得0。2026-06-22用户拍板从0.5改为1.0(纯线性换刻度:新分=旧分÷2+50)"
+    },
+    "scoring_temporal_segments": [
+      [
+        0,
+        30,
+        15.5
+      ],
+      [
+        31,
+        60,
+        45.5
+      ],
+      [
+        61,
+        90,
+        75.5
+      ]
+    ]
+  },
+  "points_filter": null,
+  "entries": [
+    {
+      "model": "deepseek-r1_1.5b",
+      "cal": {
+        "wmae": null,
+        "n": 0,
+        "n_total": 0,
+        "n_invalid": 0,
+        "score_100": null
+      },
+      "time": {
+        "wmae_days": null,
+        "n": 0,
+        "baseline_wmae_days": null,
+        "score_100": null,
+        "v2_finalscore": null
+      },
+      "runs": {
+        "3B_runs": 1,
+        "3F_runs": 2,
+        "3F_points_with_2_runs": 0,
+        "3F_points_total": 1,
+        "3F_avg_wmae": null,
+        "3F_range_wmae": null
+      }
+    },
+    {
+      "model": "qwen3.5_0.8b",
+      "cal": {
+        "wmae": null,
+        "n": 0,
+        "n_total": 0,
+        "n_invalid": 0,
+        "score_100": null
+      },
+      "time": {
+        "wmae_days": null,
+        "n": 0,
+        "baseline_wmae_days": null,
+        "score_100": null,
+        "v2_finalscore": null
+      },
+      "runs": {
+        "3B_runs": 1,
+        "3F_runs": 2,
+        "3F_points_with_2_runs": 0,
+        "3F_points_total": 1,
+        "3F_avg_wmae": null,
+        "3F_range_wmae": null
+      }
+    }
+  ]
+}

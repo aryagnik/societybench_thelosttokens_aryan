@@ -1,0 +1,596 @@
+{
+  "point_id": "P16",
+  "model": "doubao-seed-2-0-pro-260215",
+  "cutoff_date": "2024-04-08",
+  "events_total": 11,
+  "events_scored": 0,
+  "weighted_mae_days": null,
+  "baseline_wmae": null,
+  "score_100": null,
+  "score_answered": null,
+  "score_with_default": 49.31,
+  "weighted_mae_with_default": 9.87,
+  "predictions": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "events": [
+    {
+      "eid": "E01",
+      "event_desc": "一家短视频平台与政府围绕“强制剥离否则禁用”的法律在联邦上诉法院进行首次口头辩论，双方就言论自由与国家安全风险展开交锋",
+      "gt_date": "2024-05-09",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 15.0,
+      "delta_days": 31,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E02",
+      "event_desc": "多州及地区以“成瘾性设计伤害未成年人”为由对短视频平台提起联合诉讼，平台公开否认主要指控",
+      "gt_date": "2024-05-31",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 7.0,
+      "delta_days": 53,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E03",
+      "event_desc": "因诉讼材料涂黑缺陷导致内部文件内容被媒体技术还原并披露平台曾制定影响政策人物的游说方案，相关材料随后被申请封存",
+      "gt_date": "2024-06-13",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 10.0,
+      "delta_days": 66,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E04",
+      "event_desc": "某盟国政府以国家安全审查结论为由下令关闭该短视频平台在当地的公司运营（不禁止民众继续使用应用），平台表示将提起司法挑战",
+      "gt_date": "2024-06-30",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 7.0,
+      "delta_days": 83,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E10",
+      "event_desc": "国家A交通部长在政党大会前开设平台X账户，首条视频数小时内播放破百万",
+      "gt_date": "2024-04-13",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 11.0,
+      "delta_days": 5,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E11",
+      "event_desc": "平台X宣布关停旗下音乐流媒体产品，收缩战线集中应对监管危机",
+      "gt_date": "2024-05-17",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 7.0,
+      "delta_days": 39,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E12",
+      "event_desc": "平台X发言人首次就内部文件意外泄露发表声明，否认明知算法对儿童有害及短时即成瘾的指控",
+      "gt_date": "2024-06-14",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 9.0,
+      "delta_days": 67,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E13",
+      "event_desc": "某盟国创新部长发表声明，以国家安全审查结论为由正式下令平台X关闭当地业务运营",
+      "gt_date": "2024-06-29",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 6.0,
+      "delta_days": 82,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E14",
+      "event_desc": "互联网法研究专家公开指出关闭公司而非限制应用可能削弱追责能力但无法消除安全风险",
+      "gt_date": "2024-07-01",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 8.0,
+      "delta_days": 84,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E15",
+      "event_desc": "某地区州长入驻平台X，以一则\"爸爸笑话\"视频开启竞选活动并迅速积累上百万粉丝",
+      "gt_date": "2024-04-14",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 10.0,
+      "delta_days": 6,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E16",
+      "event_desc": "某南部农业州总检察长在相关诉讼内部文件被媒体技术还原披露后，成功请求法院将整份诉状封存、不再对外公开",
+      "gt_date": "2024-06-10",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 13.0,
+      "delta_days": 63,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    }
+  ],
+  "per_run": [
+    {
+      "mae_days": null,
+      "weighted_mae_days": null,
+      "baseline_wmae": null,
+      "score_100": null,
+      "events_scored": 0,
+      "events_total": 11,
+      "sum_weights": 0,
+      "details": [
+        {
+          "id": "E01",
+          "event": "一家短视频平台与政府围绕“强制剥离否则禁用”的法律在联邦上诉法院进行首次口头辩论，双方就言论自由与国家安全风险展开交锋",
+          "date": "2024-05-09",
+          "group": 1,
+          "days_from_cutoff": 31,
+          "eid": "E01",
+          "event_desc": "一家短视频平台与政府围绕“强制剥离否则禁用”的法律在联邦上诉法院进行首次口头辩论，双方就言论自由与国家安全风险展开交锋",
+          "gt_date": "2024-05-09",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E02",
+          "event": "多州及地区以“成瘾性设计伤害未成年人”为由对短视频平台提起联合诉讼，平台公开否认主要指控",
+          "date": "2024-05-31",
+          "group": 2,
+          "days_from_cutoff": 53,
+          "eid": "E02",
+          "event_desc": "多州及地区以“成瘾性设计伤害未成年人”为由对短视频平台提起联合诉讼，平台公开否认主要指控",
+          "gt_date": "2024-05-31",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E03",
+          "event": "因诉讼材料涂黑缺陷导致内部文件内容被媒体技术还原并披露平台曾制定影响政策人物的游说方案，相关材料随后被申请封存",
+          "date": "2024-06-13",
+          "group": 3,
+          "days_from_cutoff": 66,
+          "eid": "E03",
+          "event_desc": "因诉讼材料涂黑缺陷导致内部文件内容被媒体技术还原并披露平台曾制定影响政策人物的游说方案，相关材料随后被申请封存",
+          "gt_date": "2024-06-13",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E04",
+          "event": "某盟国政府以国家安全审查结论为由下令关闭该短视频平台在当地的公司运营（不禁止民众继续使用应用），平台表示将提起司法挑战",
+          "date": "2024-06-30",
+          "group": 4,
+          "days_from_cutoff": 83,
+          "eid": "E04",
+          "event_desc": "某盟国政府以国家安全审查结论为由下令关闭该短视频平台在当地的公司运营（不禁止民众继续使用应用），平台表示将提起司法挑战",
+          "gt_date": "2024-06-30",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E10",
+          "event": "国家A交通部长在政党大会前开设平台X账户，首条视频数小时内播放破百万",
+          "date": "2024-04-13",
+          "group": 1,
+          "days_from_cutoff": 5,
+          "eid": "E10",
+          "event_desc": "国家A交通部长在政党大会前开设平台X账户，首条视频数小时内播放破百万",
+          "gt_date": "2024-04-13",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E11",
+          "event": "平台X宣布关停旗下音乐流媒体产品，收缩战线集中应对监管危机",
+          "date": "2024-05-17",
+          "group": 2,
+          "days_from_cutoff": 39,
+          "eid": "E11",
+          "event_desc": "平台X宣布关停旗下音乐流媒体产品，收缩战线集中应对监管危机",
+          "gt_date": "2024-05-17",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E12",
+          "event": "平台X发言人首次就内部文件意外泄露发表声明，否认明知算法对儿童有害及短时即成瘾的指控",
+          "date": "2024-06-14",
+          "group": 3,
+          "days_from_cutoff": 67,
+          "eid": "E12",
+          "event_desc": "平台X发言人首次就内部文件意外泄露发表声明，否认明知算法对儿童有害及短时即成瘾的指控",
+          "gt_date": "2024-06-14",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E13",
+          "event": "某盟国创新部长发表声明，以国家安全审查结论为由正式下令平台X关闭当地业务运营",
+          "date": "2024-06-29",
+          "group": 4,
+          "days_from_cutoff": 82,
+          "eid": "E13",
+          "event_desc": "某盟国创新部长发表声明，以国家安全审查结论为由正式下令平台X关闭当地业务运营",
+          "gt_date": "2024-06-29",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E14",
+          "event": "互联网法研究专家公开指出关闭公司而非限制应用可能削弱追责能力但无法消除安全风险",
+          "date": "2024-07-01",
+          "group": 4,
+          "days_from_cutoff": 84,
+          "eid": "E14",
+          "event_desc": "互联网法研究专家公开指出关闭公司而非限制应用可能削弱追责能力但无法消除安全风险",
+          "gt_date": "2024-07-01",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E15",
+          "event": "某地区州长入驻平台X，以一则\"爸爸笑话\"视频开启竞选活动并迅速积累上百万粉丝",
+          "date": "2024-04-14",
+          "group": 1,
+          "days_from_cutoff": 6,
+          "eid": "E15",
+          "event_desc": "某地区州长入驻平台X，以一则\"爸爸笑话\"视频开启竞选活动并迅速积累上百万粉丝",
+          "gt_date": "2024-04-14",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E16",
+          "event": "某南部农业州总检察长在相关诉讼内部文件被媒体技术还原披露后，成功请求法院将整份诉状封存、不再对外公开",
+          "date": "2024-06-10",
+          "group": 2,
+          "days_from_cutoff": 63,
+          "eid": "E16",
+          "event_desc": "某南部农业州总检察长在相关诉讼内部文件被媒体技术还原披露后，成功请求法院将整份诉状封存、不再对外公开",
+          "gt_date": "2024-06-10",
+          "pred_date": null,
+          "error_days": null
+        }
+      ]
+    }
+  ],
+  "per_run_with_default": [
+    {
+      "mae_days": 9.36,
+      "weighted_mae_days": 9.87,
+      "baseline_wmae": 9.6,
+      "score_100": 49.32,
+      "events_scored": 11,
+      "events_total": 11,
+      "sum_weights": 4.3224,
+      "details": [
+        {
+          "id": "E01",
+          "event": "一家短视频平台与政府围绕“强制剥离否则禁用”的法律在联邦上诉法院进行首次口头辩论，双方就言论自由与国家安全风险展开交锋",
+          "date": "2024-05-09",
+          "group": 1,
+          "days_from_cutoff": 31,
+          "eid": "E01",
+          "event_desc": "一家短视频平台与政府围绕“强制剥离否则禁用”的法律在联邦上诉法院进行首次口头辩论，双方就言论自由与国家安全风险展开交锋",
+          "gt_date": "2024-05-09",
+          "pred_date": "2024-05-24",
+          "error_days": 15,
+          "weight": 0.4464
+        },
+        {
+          "id": "E02",
+          "event": "多州及地区以“成瘾性设计伤害未成年人”为由对短视频平台提起联合诉讼，平台公开否认主要指控",
+          "date": "2024-05-31",
+          "group": 2,
+          "days_from_cutoff": 53,
+          "eid": "E02",
+          "event_desc": "多州及地区以“成瘾性设计伤害未成年人”为由对短视频平台提起联合诉讼，平台公开否认主要指控",
+          "gt_date": "2024-05-31",
+          "pred_date": "2024-05-24",
+          "error_days": 7,
+          "weight": 0.3205
+        },
+        {
+          "id": "E03",
+          "event": "因诉讼材料涂黑缺陷导致内部文件内容被媒体技术还原并披露平台曾制定影响政策人物的游说方案，相关材料随后被申请封存",
+          "date": "2024-06-13",
+          "group": 3,
+          "days_from_cutoff": 66,
+          "eid": "E03",
+          "event_desc": "因诉讼材料涂黑缺陷导致内部文件内容被媒体技术还原并披露平台曾制定影响政策人物的游说方案，相关材料随后被申请封存",
+          "gt_date": "2024-06-13",
+          "pred_date": "2024-06-23",
+          "error_days": 10,
+          "weight": 0.2747
+        },
+        {
+          "id": "E04",
+          "event": "某盟国政府以国家安全审查结论为由下令关闭该短视频平台在当地的公司运营（不禁止民众继续使用应用），平台表示将提起司法挑战",
+          "date": "2024-06-30",
+          "group": 4,
+          "days_from_cutoff": 83,
+          "eid": "E04",
+          "event_desc": "某盟国政府以国家安全审查结论为由下令关闭该短视频平台在当地的公司运营（不禁止民众继续使用应用），平台表示将提起司法挑战",
+          "gt_date": "2024-06-30",
+          "pred_date": "2024-06-23",
+          "error_days": 7,
+          "weight": 0.2315
+        },
+        {
+          "id": "E10",
+          "event": "国家A交通部长在政党大会前开设平台X账户，首条视频数小时内播放破百万",
+          "date": "2024-04-13",
+          "group": 1,
+          "days_from_cutoff": 5,
+          "eid": "E10",
+          "event_desc": "国家A交通部长在政党大会前开设平台X账户，首条视频数小时内播放破百万",
+          "gt_date": "2024-04-13",
+          "pred_date": "2024-04-24",
+          "error_days": 11,
+          "weight": 0.8333
+        },
+        {
+          "id": "E11",
+          "event": "平台X宣布关停旗下音乐流媒体产品，收缩战线集中应对监管危机",
+          "date": "2024-05-17",
+          "group": 2,
+          "days_from_cutoff": 39,
+          "eid": "E11",
+          "event_desc": "平台X宣布关停旗下音乐流媒体产品，收缩战线集中应对监管危机",
+          "gt_date": "2024-05-17",
+          "pred_date": "2024-05-24",
+          "error_days": 7,
+          "weight": 0.3906
+        },
+        {
+          "id": "E12",
+          "event": "平台X发言人首次就内部文件意外泄露发表声明，否认明知算法对儿童有害及短时即成瘾的指控",
+          "date": "2024-06-14",
+          "group": 3,
+          "days_from_cutoff": 67,
+          "eid": "E12",
+          "event_desc": "平台X发言人首次就内部文件意外泄露发表声明，否认明知算法对儿童有害及短时即成瘾的指控",
+          "gt_date": "2024-06-14",
+          "pred_date": "2024-06-23",
+          "error_days": 9,
+          "weight": 0.2717
+        },
+        {
+          "id": "E13",
+          "event": "某盟国创新部长发表声明，以国家安全审查结论为由正式下令平台X关闭当地业务运营",
+          "date": "2024-06-29",
+          "group": 4,
+          "days_from_cutoff": 82,
+          "eid": "E13",
+          "event_desc": "某盟国创新部长发表声明，以国家安全审查结论为由正式下令平台X关闭当地业务运营",
+          "gt_date": "2024-06-29",
+          "pred_date": "2024-06-23",
+          "error_days": 6,
+          "weight": 0.2336
+        },
+        {
+          "id": "E14",
+          "event": "互联网法研究专家公开指出关闭公司而非限制应用可能削弱追责能力但无法消除安全风险",
+          "date": "2024-07-01",
+          "group": 4,
+          "days_from_cutoff": 84,
+          "eid": "E14",
+          "event_desc": "互联网法研究专家公开指出关闭公司而非限制应用可能削弱追责能力但无法消除安全风险",
+          "gt_date": "2024-07-01",
+          "pred_date": "2024-06-23",
+          "error_days": 8,
+          "weight": 0.2294
+        },
+        {
+          "id": "E15",
+          "event": "某地区州长入驻平台X，以一则\"爸爸笑话\"视频开启竞选活动并迅速积累上百万粉丝",
+          "date": "2024-04-14",
+          "group": 1,
+          "days_from_cutoff": 6,
+          "eid": "E15",
+          "event_desc": "某地区州长入驻平台X，以一则\"爸爸笑话\"视频开启竞选活动并迅速积累上百万粉丝",
+          "gt_date": "2024-04-14",
+          "pred_date": "2024-04-24",
+          "error_days": 10,
+          "weight": 0.8065
+        },
+        {
+          "id": "E16",
+          "event": "某南部农业州总检察长在相关诉讼内部文件被媒体技术还原披露后，成功请求法院将整份诉状封存、不再对外公开",
+          "date": "2024-06-10",
+          "group": 2,
+          "days_from_cutoff": 63,
+          "eid": "E16",
+          "event_desc": "某南部农业州总检察长在相关诉讼内部文件被媒体技术还原披露后，成功请求法院将整份诉状封存、不再对外公开",
+          "gt_date": "2024-06-10",
+          "pred_date": "2024-06-23",
+          "error_days": 13,
+          "weight": 0.2841
+        }
+      ]
+    }
+  ],
+  "n_runs_completed": 1,
+  "answer_attempt_histogram": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "null": 11
+  },
+  "attempt_records": [
+    {
+      "run": 1,
+      "attempt": 1,
+      "asked": 11,
+      "answered": 0,
+      "still_missing": 11,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 2,
+      "asked": 11,
+      "answered": 0,
+      "still_missing": 11,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 3,
+      "asked": 11,
+      "answered": 0,
+      "still_missing": 11,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 4,
+      "asked": 11,
+      "answered": 0,
+      "still_missing": 11,
+      "request_error": 1
+    }
+  ],
+  "max_answer_attempts": 3,
+  "retry_wait_seconds": 60,
+  "runs_per_point": 1,
+  "n_dmx_fail": 11,
+  "n_model_fail": 0,
+  "dmx_error_frac": 1.0,
+  "model_fail_frac": 0.0,
+  "invalid_frac": 1.0,
+  "validity_policy": "1run_retry4_3plus1dmx_fail_excluded_default_as_secondary",
+  "density_check": {
+    "total_90d": 11,
+    "seg1": 2,
+    "seg2": 3,
+    "seg3": 6,
+    "status": "ok"
+  }
+}

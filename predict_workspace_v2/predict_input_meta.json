@@ -1,0 +1,34 @@
+{
+  "input_timeline": "../media_workspace/timeline_merged_long_gt.md",
+  "replacements_file": "replacements.json",
+  "n_replacements": 2,
+  "date_shift_days": -87,
+  "date_shift_max_days": 180,
+  "phase1": {
+    "n_rules": 2,
+    "n_rules_with_hits": 2,
+    "total_replacements": 16,
+    "hit_counts": {
+      "特斯拉": 8,
+      "得州": 8
+    },
+    "zero_hit_rules": [],
+    "dropped_short_keys": [],
+    "double_fixes": {},
+    "role_prefix_fixes": {},
+    "pass2_hits": {}
+  },
+  "phase2": {
+    "skipped": false,
+    "passed": true,
+    "rounds_executed": 2,
+    "model": "deepseek-r1:1.5b"
+  },
+  "phase3": {
+    "skipped": false,
+    "fact_verdict": "consistent",
+    "numbers_lost": {},
+    "llm_verdict_advisory": "consistent",
+    "model": "deepseek-r1:1.5b"
+  }
+}

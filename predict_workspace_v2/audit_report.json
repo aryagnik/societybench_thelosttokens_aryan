@@ -1,0 +1,100 @@
+{
+  "model": "deepseek-r1:1.5b",
+  "passed": true,
+  "max_rounds": 5,
+  "rounds": [
+    {
+      "leaks": [
+        {
+          "snippet": "公众情绪偏向愤怒，争议焦点在于劳工权益和罢工问题。",
+          "suggestion": "情绪",
+          "severity": "high",
+          "_lens": "A"
+        },
+        {
+          "snippet": "特斯拉",
+          "suggestion": "真实人名",
+          "severity": "high",
+          "_lens": "C"
+        },
+        {
+          "snippet": "得州",
+          "suggestion": "真实地名",
+          "severity": "high",
+          "_lens": "C"
+        }
+      ],
+      "stats": {
+        "high": 3,
+        "mid": 0
+      },
+      "raw_union": 7,
+      "verified": 3,
+      "per_lens_found": {
+        "A": 5,
+        "B": 0,
+        "C": 2
+      },
+      "qualified_B": null,
+      "round": 1,
+      "new_rules": [
+        [
+          "特斯拉",
+          "公司C"
+        ],
+        [
+          "得州",
+          "地区D"
+        ]
+      ],
+      "fact_preservation": {
+        "fact_verdict": "consistent",
+        "n_original": 0,
+        "n_anon": 0,
+        "numbers_lost": {},
+        "numbers_gained": {},
+        "_note": "确定性数字多重集比对；numbers_lost 非空=有事实数字被匿名抹掉"
+      },
+      "consistency": {
+        "node_count_original": 5,
+        "node_count_anon": 5,
+        "missing_nodes": [],
+        "damages": [
+          {
+            "location": "事件完整性",
+            "issue": "事件经过完整",
+            "detail": "每个节点的'事件/舆论'段落都保留完整，没有整段事实被删掉。"
+          }
+        ],
+        "verdict": "consistent",
+        "summary": "两个文本在结构和内容上完全一致，只是用占位符遮蔽了部分信息。"
+      }
+    },
+    {
+      "leaks": [],
+      "stats": {
+        "high": 0,
+        "mid": 0
+      },
+      "raw_union": 1,
+      "verified": 0,
+      "per_lens_found": {
+        "A": 8,
+        "B": 0,
+        "C": 0
+      },
+      "qualified_B": true,
+      "round": 2
+    }
+  ],
+  "appended_rules_total": [
+    [
+      "特斯拉",
+      "公司C"
+    ],
+    [
+      "得州",
+      "地区D"
+    ]
+  ]
+}

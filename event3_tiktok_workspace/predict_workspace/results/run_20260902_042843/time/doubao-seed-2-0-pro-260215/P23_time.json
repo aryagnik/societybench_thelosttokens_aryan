@@ -1,0 +1,911 @@
+{
+  "point_id": "P23",
+  "model": "doubao-seed-2-0-pro-260215",
+  "cutoff_date": "2024-08-29",
+  "events_total": 18,
+  "events_scored": 0,
+  "weighted_mae_days": null,
+  "baseline_wmae": null,
+  "score_100": null,
+  "score_answered": null,
+  "score_with_default": 49.54,
+  "weighted_mae_with_default": 8.31,
+  "predictions": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "events": [
+    {
+      "eid": "E01",
+      "event_desc": "最高法院就“强制剥离否则禁用”的平台禁令案举行口头辩论，庭审中多数法官对平台的言论自由抗辩持怀疑态度并更关注国家安全理由",
+      "gt_date": "2024-09-02",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 12.0,
+      "delta_days": 4,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E02",
+      "event_desc": "最高法院驳回平台及用户团体提出的紧急救济请求，使禁令按法定时间点继续推进并表示将另行发布更完整意见",
+      "gt_date": "2024-09-09",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 5.0,
+      "delta_days": 11,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E03",
+      "event_desc": "平台在当地短暂停止服务并从主要应用商店下架，禁令影响开始以“无法再分发与更新”的形式落地",
+      "gt_date": "2024-09-10",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 4.0,
+      "delta_days": 12,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E04",
+      "event_desc": "候任领导人公开承诺将以行政手段暂停禁令执法并为服务提供商提供责任保证，平台随即恢复对当地用户的访问",
+      "gt_date": "2024-09-11",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 3.0,
+      "delta_days": 13,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E05",
+      "event_desc": "新政府签署行政命令将禁令执行期限延后约两个月，为交易谈判争取额外窗口但法律效力仍存争议",
+      "gt_date": "2024-09-21",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 7.0,
+      "delta_days": 23,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E06",
+      "event_desc": "监管部门向主要应用商店出具不追责保证后，平台在当地重新恢复上架下载，结束数周下载禁令",
+      "gt_date": "2024-10-07",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 7.0,
+      "delta_days": 39,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E07",
+      "event_desc": "总统公开表示平台出售协议将于延长期截止日前达成，并暗示必要时仍可能继续延长期限",
+      "gt_date": "2024-11-22",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 9.0,
+      "delta_days": 85,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E08",
+      "event_desc": "政府签署新行政命令再次延长“剥离否则禁用”期限，为继续谈判争取额外宽限期",
+      "gt_date": "2024-11-25",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 12.0,
+      "delta_days": 88,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E09",
+      "event_desc": "在新一轮延期后，监管部门向应用商店出具书面保证允许继续上架，同时一项接近完成的交易因双边经贸摩擦被对方叫停",
+      "gt_date": "2024-11-27",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 14.0,
+      "delta_days": 90,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E11",
+      "event_desc": "现任政府正式表态不会在法定生效日强制平台关闭，将执法责任移交即将上任的新政府",
+      "gt_date": "2024-09-08",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 6.0,
+      "delta_days": 10,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E12",
+      "event_desc": "新政府推动的所有权交易进入与一家大型科技公司及外部投资者集团的谈判阶段，母公司拟保留少数股权而由该科技公司监管算法",
+      "gt_date": "2024-09-18",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 4.0,
+      "delta_days": 20,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E13",
+      "event_desc": "领导人公开表示将在约一个月内对平台收购作出决定，并点名若干潜在买家",
+      "gt_date": "2024-09-19",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 5.0,
+      "delta_days": 21,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E14",
+      "event_desc": "领导人签署行政命令设立政府主权财富基金，并表示该基金可能被用于收购该短视频平台",
+      "gt_date": "2024-09-26",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 12.0,
+      "delta_days": 28,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E15",
+      "event_desc": "亿万富翁人物六十三旗下机构十三正式向公司Y提交收购平台X的提案，拟将应用迁至国家A拥有的技术平台",
+      "gt_date": "2024-09-01",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 13.0,
+      "delta_days": 3,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E16",
+      "event_desc": "候任领导人A的律师向法院D提交简报，明确表态\"反对禁止平台X\"，请求推迟禁令生效以寻求政治解决方案",
+      "gt_date": "2024-09-05",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 9.0,
+      "delta_days": 7,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E17",
+      "event_desc": "领导人A指定副总统副总统V负责促成平台X的潜在出售交易",
+      "gt_date": "2024-09-30",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 14.0,
+      "delta_days": 32,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E18",
+      "event_desc": "领导人A政府探索一项让公司Y保留平台X核心算法、以租赁方式授权国家A新实体使用的交易方案，以满足\"外国对手控制\"限制",
+      "gt_date": "2024-11-23",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 10.0,
+      "delta_days": 86,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E19",
+      "event_desc": "领导人A宣布对国家B加征关税后，国家B方面明确表示不会批准平台X交易，原本接近完成的出售方案被迫暂停",
+      "gt_date": "2024-11-26",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 13.0,
+      "delta_days": 89,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    }
+  ],
+  "per_run": [
+    {
+      "mae_days": null,
+      "weighted_mae_days": null,
+      "baseline_wmae": null,
+      "score_100": null,
+      "events_scored": 0,
+      "events_total": 18,
+      "sum_weights": 0,
+      "details": [
+        {
+          "id": "E01",
+          "event": "最高法院就“强制剥离否则禁用”的平台禁令案举行口头辩论，庭审中多数法官对平台的言论自由抗辩持怀疑态度并更关注国家安全理由",
+          "date": "2024-09-02",
+          "group": 1,
+          "days_from_cutoff": 4,
+          "eid": "E01",
+          "event_desc": "最高法院就“强制剥离否则禁用”的平台禁令案举行口头辩论，庭审中多数法官对平台的言论自由抗辩持怀疑态度并更关注国家安全理由",
+          "gt_date": "2024-09-02",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E02",
+          "event": "最高法院驳回平台及用户团体提出的紧急救济请求，使禁令按法定时间点继续推进并表示将另行发布更完整意见",
+          "date": "2024-09-09",
+          "group": 2,
+          "days_from_cutoff": 11,
+          "eid": "E02",
+          "event_desc": "最高法院驳回平台及用户团体提出的紧急救济请求，使禁令按法定时间点继续推进并表示将另行发布更完整意见",
+          "gt_date": "2024-09-09",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E03",
+          "event": "平台在当地短暂停止服务并从主要应用商店下架，禁令影响开始以“无法再分发与更新”的形式落地",
+          "date": "2024-09-10",
+          "group": 3,
+          "days_from_cutoff": 12,
+          "eid": "E03",
+          "event_desc": "平台在当地短暂停止服务并从主要应用商店下架，禁令影响开始以“无法再分发与更新”的形式落地",
+          "gt_date": "2024-09-10",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E04",
+          "event": "候任领导人公开承诺将以行政手段暂停禁令执法并为服务提供商提供责任保证，平台随即恢复对当地用户的访问",
+          "date": "2024-09-11",
+          "group": 4,
+          "days_from_cutoff": 13,
+          "eid": "E04",
+          "event_desc": "候任领导人公开承诺将以行政手段暂停禁令执法并为服务提供商提供责任保证，平台随即恢复对当地用户的访问",
+          "gt_date": "2024-09-11",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E05",
+          "event": "新政府签署行政命令将禁令执行期限延后约两个月，为交易谈判争取额外窗口但法律效力仍存争议",
+          "date": "2024-09-21",
+          "group": 5,
+          "days_from_cutoff": 23,
+          "eid": "E05",
+          "event_desc": "新政府签署行政命令将禁令执行期限延后约两个月，为交易谈判争取额外窗口但法律效力仍存争议",
+          "gt_date": "2024-09-21",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E06",
+          "event": "监管部门向主要应用商店出具不追责保证后，平台在当地重新恢复上架下载，结束数周下载禁令",
+          "date": "2024-10-07",
+          "group": 6,
+          "days_from_cutoff": 39,
+          "eid": "E06",
+          "event_desc": "监管部门向主要应用商店出具不追责保证后，平台在当地重新恢复上架下载，结束数周下载禁令",
+          "gt_date": "2024-10-07",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E07",
+          "event": "总统公开表示平台出售协议将于延长期截止日前达成，并暗示必要时仍可能继续延长期限",
+          "date": "2024-11-22",
+          "group": 7,
+          "days_from_cutoff": 85,
+          "eid": "E07",
+          "event_desc": "总统公开表示平台出售协议将于延长期截止日前达成，并暗示必要时仍可能继续延长期限",
+          "gt_date": "2024-11-22",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E08",
+          "event": "政府签署新行政命令再次延长“剥离否则禁用”期限，为继续谈判争取额外宽限期",
+          "date": "2024-11-25",
+          "group": 8,
+          "days_from_cutoff": 88,
+          "eid": "E08",
+          "event_desc": "政府签署新行政命令再次延长“剥离否则禁用”期限，为继续谈判争取额外宽限期",
+          "gt_date": "2024-11-25",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E09",
+          "event": "在新一轮延期后，监管部门向应用商店出具书面保证允许继续上架，同时一项接近完成的交易因双边经贸摩擦被对方叫停",
+          "date": "2024-11-27",
+          "group": 9,
+          "days_from_cutoff": 90,
+          "eid": "E09",
+          "event_desc": "在新一轮延期后，监管部门向应用商店出具书面保证允许继续上架，同时一项接近完成的交易因双边经贸摩擦被对方叫停",
+          "gt_date": "2024-11-27",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E11",
+          "event": "现任政府正式表态不会在法定生效日强制平台关闭，将执法责任移交即将上任的新政府",
+          "date": "2024-09-08",
+          "group": 1,
+          "days_from_cutoff": 10,
+          "eid": "E11",
+          "event_desc": "现任政府正式表态不会在法定生效日强制平台关闭，将执法责任移交即将上任的新政府",
+          "gt_date": "2024-09-08",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E12",
+          "event": "新政府推动的所有权交易进入与一家大型科技公司及外部投资者集团的谈判阶段，母公司拟保留少数股权而由该科技公司监管算法",
+          "date": "2024-09-18",
+          "group": 2,
+          "days_from_cutoff": 20,
+          "eid": "E12",
+          "event_desc": "新政府推动的所有权交易进入与一家大型科技公司及外部投资者集团的谈判阶段，母公司拟保留少数股权而由该科技公司监管算法",
+          "gt_date": "2024-09-18",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E13",
+          "event": "领导人公开表示将在约一个月内对平台收购作出决定，并点名若干潜在买家",
+          "date": "2024-09-19",
+          "group": 3,
+          "days_from_cutoff": 21,
+          "eid": "E13",
+          "event_desc": "领导人公开表示将在约一个月内对平台收购作出决定，并点名若干潜在买家",
+          "gt_date": "2024-09-19",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E14",
+          "event": "领导人签署行政命令设立政府主权财富基金，并表示该基金可能被用于收购该短视频平台",
+          "date": "2024-09-26",
+          "group": 4,
+          "days_from_cutoff": 28,
+          "eid": "E14",
+          "event_desc": "领导人签署行政命令设立政府主权财富基金，并表示该基金可能被用于收购该短视频平台",
+          "gt_date": "2024-09-26",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E15",
+          "event": "亿万富翁人物六十三旗下机构十三正式向公司Y提交收购平台X的提案，拟将应用迁至国家A拥有的技术平台",
+          "date": "2024-09-01",
+          "group": 3,
+          "days_from_cutoff": 3,
+          "eid": "E15",
+          "event_desc": "亿万富翁人物六十三旗下机构十三正式向公司Y提交收购平台X的提案，拟将应用迁至国家A拥有的技术平台",
+          "gt_date": "2024-09-01",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E16",
+          "event": "候任领导人A的律师向法院D提交简报，明确表态\"反对禁止平台X\"，请求推迟禁令生效以寻求政治解决方案",
+          "date": "2024-09-05",
+          "group": 4,
+          "days_from_cutoff": 7,
+          "eid": "E16",
+          "event_desc": "候任领导人A的律师向法院D提交简报，明确表态\"反对禁止平台X\"，请求推迟禁令生效以寻求政治解决方案",
+          "gt_date": "2024-09-05",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E17",
+          "event": "领导人A指定副总统副总统V负责促成平台X的潜在出售交易",
+          "date": "2024-09-30",
+          "group": 7,
+          "days_from_cutoff": 32,
+          "eid": "E17",
+          "event_desc": "领导人A指定副总统副总统V负责促成平台X的潜在出售交易",
+          "gt_date": "2024-09-30",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E18",
+          "event": "领导人A政府探索一项让公司Y保留平台X核心算法、以租赁方式授权国家A新实体使用的交易方案，以满足\"外国对手控制\"限制",
+          "date": "2024-11-23",
+          "group": 10,
+          "days_from_cutoff": 86,
+          "eid": "E18",
+          "event_desc": "领导人A政府探索一项让公司Y保留平台X核心算法、以租赁方式授权国家A新实体使用的交易方案，以满足\"外国对手控制\"限制",
+          "gt_date": "2024-11-23",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E19",
+          "event": "领导人A宣布对国家B加征关税后，国家B方面明确表示不会批准平台X交易，原本接近完成的出售方案被迫暂停",
+          "date": "2024-11-26",
+          "group": 11,
+          "days_from_cutoff": 89,
+          "eid": "E19",
+          "event_desc": "领导人A宣布对国家B加征关税后，国家B方面明确表示不会批准平台X交易，原本接近完成的出售方案被迫暂停",
+          "gt_date": "2024-11-26",
+          "pred_date": null,
+          "error_days": null
+        }
+      ]
+    }
+  ],
+  "per_run_with_default": [
+    {
+      "mae_days": 8.83,
+      "weighted_mae_days": 8.31,
+      "baseline_wmae": 8.16,
+      "score_100": 49.53,
+      "events_scored": 18,
+      "events_total": 18,
+      "sum_weights": 9.3097,
+      "details": [
+        {
+          "id": "E01",
+          "event": "最高法院就“强制剥离否则禁用”的平台禁令案举行口头辩论，庭审中多数法官对平台的言论自由抗辩持怀疑态度并更关注国家安全理由",
+          "date": "2024-09-02",
+          "group": 1,
+          "days_from_cutoff": 4,
+          "eid": "E01",
+          "event_desc": "最高法院就“强制剥离否则禁用”的平台禁令案举行口头辩论，庭审中多数法官对平台的言论自由抗辩持怀疑态度并更关注国家安全理由",
+          "gt_date": "2024-09-02",
+          "pred_date": "2024-09-14",
+          "error_days": 12,
+          "weight": 0.8621
+        },
+        {
+          "id": "E02",
+          "event": "最高法院驳回平台及用户团体提出的紧急救济请求，使禁令按法定时间点继续推进并表示将另行发布更完整意见",
+          "date": "2024-09-09",
+          "group": 2,
+          "days_from_cutoff": 11,
+          "eid": "E02",
+          "event_desc": "最高法院驳回平台及用户团体提出的紧急救济请求，使禁令按法定时间点继续推进并表示将另行发布更完整意见",
+          "gt_date": "2024-09-09",
+          "pred_date": "2024-09-14",
+          "error_days": 5,
+          "weight": 0.6944
+        },
+        {
+          "id": "E03",
+          "event": "平台在当地短暂停止服务并从主要应用商店下架，禁令影响开始以“无法再分发与更新”的形式落地",
+          "date": "2024-09-10",
+          "group": 3,
+          "days_from_cutoff": 12,
+          "eid": "E03",
+          "event_desc": "平台在当地短暂停止服务并从主要应用商店下架，禁令影响开始以“无法再分发与更新”的形式落地",
+          "gt_date": "2024-09-10",
+          "pred_date": "2024-09-14",
+          "error_days": 4,
+          "weight": 0.6757
+        },
+        {
+          "id": "E04",
+          "event": "候任领导人公开承诺将以行政手段暂停禁令执法并为服务提供商提供责任保证，平台随即恢复对当地用户的访问",
+          "date": "2024-09-11",
+          "group": 4,
+          "days_from_cutoff": 13,
+          "eid": "E04",
+          "event_desc": "候任领导人公开承诺将以行政手段暂停禁令执法并为服务提供商提供责任保证，平台随即恢复对当地用户的访问",
+          "gt_date": "2024-09-11",
+          "pred_date": "2024-09-14",
+          "error_days": 3,
+          "weight": 0.6579
+        },
+        {
+          "id": "E05",
+          "event": "新政府签署行政命令将禁令执行期限延后约两个月，为交易谈判争取额外窗口但法律效力仍存争议",
+          "date": "2024-09-21",
+          "group": 5,
+          "days_from_cutoff": 23,
+          "eid": "E05",
+          "event_desc": "新政府签署行政命令将禁令执行期限延后约两个月，为交易谈判争取额外窗口但法律效力仍存争议",
+          "gt_date": "2024-09-21",
+          "pred_date": "2024-09-14",
+          "error_days": 7,
+          "weight": 0.5208
+        },
+        {
+          "id": "E06",
+          "event": "监管部门向主要应用商店出具不追责保证后，平台在当地重新恢复上架下载，结束数周下载禁令",
+          "date": "2024-10-07",
+          "group": 6,
+          "days_from_cutoff": 39,
+          "eid": "E06",
+          "event_desc": "监管部门向主要应用商店出具不追责保证后，平台在当地重新恢复上架下载，结束数周下载禁令",
+          "gt_date": "2024-10-07",
+          "pred_date": "2024-10-14",
+          "error_days": 7,
+          "weight": 0.3906
+        },
+        {
+          "id": "E07",
+          "event": "总统公开表示平台出售协议将于延长期截止日前达成，并暗示必要时仍可能继续延长期限",
+          "date": "2024-11-22",
+          "group": 7,
+          "days_from_cutoff": 85,
+          "eid": "E07",
+          "event_desc": "总统公开表示平台出售协议将于延长期截止日前达成，并暗示必要时仍可能继续延长期限",
+          "gt_date": "2024-11-22",
+          "pred_date": "2024-11-13",
+          "error_days": 9,
+          "weight": 0.2273
+        },
+        {
+          "id": "E08",
+          "event": "政府签署新行政命令再次延长“剥离否则禁用”期限，为继续谈判争取额外宽限期",
+          "date": "2024-11-25",
+          "group": 8,
+          "days_from_cutoff": 88,
+          "eid": "E08",
+          "event_desc": "政府签署新行政命令再次延长“剥离否则禁用”期限，为继续谈判争取额外宽限期",
+          "gt_date": "2024-11-25",
+          "pred_date": "2024-11-13",
+          "error_days": 12,
+          "weight": 0.2212
+        },
+        {
+          "id": "E09",
+          "event": "在新一轮延期后，监管部门向应用商店出具书面保证允许继续上架，同时一项接近完成的交易因双边经贸摩擦被对方叫停",
+          "date": "2024-11-27",
+          "group": 9,
+          "days_from_cutoff": 90,
+          "eid": "E09",
+          "event_desc": "在新一轮延期后，监管部门向应用商店出具书面保证允许继续上架，同时一项接近完成的交易因双边经贸摩擦被对方叫停",
+          "gt_date": "2024-11-27",
+          "pred_date": "2024-11-13",
+          "error_days": 14,
+          "weight": 0.2174
+        },
+        {
+          "id": "E11",
+          "event": "现任政府正式表态不会在法定生效日强制平台关闭，将执法责任移交即将上任的新政府",
+          "date": "2024-09-08",
+          "group": 1,
+          "days_from_cutoff": 10,
+          "eid": "E11",
+          "event_desc": "现任政府正式表态不会在法定生效日强制平台关闭，将执法责任移交即将上任的新政府",
+          "gt_date": "2024-09-08",
+          "pred_date": "2024-09-14",
+          "error_days": 6,
+          "weight": 0.7143
+        },
+        {
+          "id": "E12",
+          "event": "新政府推动的所有权交易进入与一家大型科技公司及外部投资者集团的谈判阶段，母公司拟保留少数股权而由该科技公司监管算法",
+          "date": "2024-09-18",
+          "group": 2,
+          "days_from_cutoff": 20,
+          "eid": "E12",
+          "event_desc": "新政府推动的所有权交易进入与一家大型科技公司及外部投资者集团的谈判阶段，母公司拟保留少数股权而由该科技公司监管算法",
+          "gt_date": "2024-09-18",
+          "pred_date": "2024-09-14",
+          "error_days": 4,
+          "weight": 0.5556
+        },
+        {
+          "id": "E13",
+          "event": "领导人公开表示将在约一个月内对平台收购作出决定，并点名若干潜在买家",
+          "date": "2024-09-19",
+          "group": 3,
+          "days_from_cutoff": 21,
+          "eid": "E13",
+          "event_desc": "领导人公开表示将在约一个月内对平台收购作出决定，并点名若干潜在买家",
+          "gt_date": "2024-09-19",
+          "pred_date": "2024-09-14",
+          "error_days": 5,
+          "weight": 0.5435
+        },
+        {
+          "id": "E14",
+          "event": "领导人签署行政命令设立政府主权财富基金，并表示该基金可能被用于收购该短视频平台",
+          "date": "2024-09-26",
+          "group": 4,
+          "days_from_cutoff": 28,
+          "eid": "E14",
+          "event_desc": "领导人签署行政命令设立政府主权财富基金，并表示该基金可能被用于收购该短视频平台",
+          "gt_date": "2024-09-26",
+          "pred_date": "2024-09-14",
+          "error_days": 12,
+          "weight": 0.4717
+        },
+        {
+          "id": "E15",
+          "event": "亿万富翁人物六十三旗下机构十三正式向公司Y提交收购平台X的提案，拟将应用迁至国家A拥有的技术平台",
+          "date": "2024-09-01",
+          "group": 3,
+          "days_from_cutoff": 3,
+          "eid": "E15",
+          "event_desc": "亿万富翁人物六十三旗下机构十三正式向公司Y提交收购平台X的提案，拟将应用迁至国家A拥有的技术平台",
+          "gt_date": "2024-09-01",
+          "pred_date": "2024-09-14",
+          "error_days": 13,
+          "weight": 0.8929
+        },
+        {
+          "id": "E16",
+          "event": "候任领导人A的律师向法院D提交简报，明确表态\"反对禁止平台X\"，请求推迟禁令生效以寻求政治解决方案",
+          "date": "2024-09-05",
+          "group": 4,
+          "days_from_cutoff": 7,
+          "eid": "E16",
+          "event_desc": "候任领导人A的律师向法院D提交简报，明确表态\"反对禁止平台X\"，请求推迟禁令生效以寻求政治解决方案",
+          "gt_date": "2024-09-05",
+          "pred_date": "2024-09-14",
+          "error_days": 9,
+          "weight": 0.7812
+        },
+        {
+          "id": "E17",
+          "event": "领导人A指定副总统副总统V负责促成平台X的潜在出售交易",
+          "date": "2024-09-30",
+          "group": 7,
+          "days_from_cutoff": 32,
+          "eid": "E17",
+          "event_desc": "领导人A指定副总统副总统V负责促成平台X的潜在出售交易",
+          "gt_date": "2024-09-30",
+          "pred_date": "2024-10-14",
+          "error_days": 14,
+          "weight": 0.4386
+        },
+        {
+          "id": "E18",
+          "event": "领导人A政府探索一项让公司Y保留平台X核心算法、以租赁方式授权国家A新实体使用的交易方案，以满足\"外国对手控制\"限制",
+          "date": "2024-11-23",
+          "group": 10,
+          "days_from_cutoff": 86,
+          "eid": "E18",
+          "event_desc": "领导人A政府探索一项让公司Y保留平台X核心算法、以租赁方式授权国家A新实体使用的交易方案，以满足\"外国对手控制\"限制",
+          "gt_date": "2024-11-23",
+          "pred_date": "2024-11-13",
+          "error_days": 10,
+          "weight": 0.2252
+        },
+        {
+          "id": "E19",
+          "event": "领导人A宣布对国家B加征关税后，国家B方面明确表示不会批准平台X交易，原本接近完成的出售方案被迫暂停",
+          "date": "2024-11-26",
+          "group": 11,
+          "days_from_cutoff": 89,
+          "eid": "E19",
+          "event_desc": "领导人A宣布对国家B加征关税后，国家B方面明确表示不会批准平台X交易，原本接近完成的出售方案被迫暂停",
+          "gt_date": "2024-11-26",
+          "pred_date": "2024-11-13",
+          "error_days": 13,
+          "weight": 0.2193
+        }
+      ]
+    }
+  ],
+  "n_runs_completed": 1,
+  "answer_attempt_histogram": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "null": 18
+  },
+  "attempt_records": [
+    {
+      "run": 1,
+      "attempt": 1,
+      "asked": 18,
+      "answered": 0,
+      "still_missing": 18,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 2,
+      "asked": 18,
+      "answered": 0,
+      "still_missing": 18,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 3,
+      "asked": 18,
+      "answered": 0,
+      "still_missing": 18,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 4,
+      "asked": 18,
+      "answered": 0,
+      "still_missing": 18,
+      "request_error": 1
+    }
+  ],
+  "max_answer_attempts": 3,
+  "retry_wait_seconds": 60,
+  "runs_per_point": 1,
+  "n_dmx_fail": 18,
+  "n_model_fail": 0,
+  "dmx_error_frac": 1.0,
+  "model_fail_frac": 0.0,
+  "invalid_frac": 1.0,
+  "validity_policy": "1run_retry4_3plus1dmx_fail_excluded_default_as_secondary",
+  "density_check": {
+    "total_90d": 18,
+    "seg1": 11,
+    "seg2": 2,
+    "seg3": 5,
+    "status": "ok"
+  }
+}

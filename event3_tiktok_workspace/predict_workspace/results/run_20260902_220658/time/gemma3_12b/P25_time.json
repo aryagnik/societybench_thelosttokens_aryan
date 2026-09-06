@@ -1,0 +1,821 @@
+{
+  "point_id": "P25",
+  "model": "gemma3:12b",
+  "cutoff_date": "2024-09-11",
+  "events_total": 16,
+  "events_scored": 0,
+  "weighted_mae_days": null,
+  "baseline_wmae": null,
+  "score_100": null,
+  "score_answered": null,
+  "score_with_default": 49.57,
+  "weighted_mae_with_default": 5.8,
+  "predictions": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "events": [
+    {
+      "eid": "E01",
+      "event_desc": "行政当局签署命令，将对短视频平台在本国的强制处置/下架执法期限延长约两个月，并向相关企业释放“暂不追责”信号以维持服务",
+      "gt_date": "2024-09-21",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 6.0,
+      "delta_days": 10,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E02",
+      "event_desc": "行政当局签署命令推进设立主权财富基金，并公开表示该基金可能被用于收购短视频平台相关资产",
+      "gt_date": "2024-09-26",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 1.0,
+      "delta_days": 15,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E03",
+      "event_desc": "在监管部门出具书面“免罚/不追责”保证后，两大应用商店恢复该短视频平台在本国的上架与下载",
+      "gt_date": "2024-10-07",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 10.0,
+      "delta_days": 26,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E04",
+      "event_desc": "行政首脑公开表示短视频平台交易将在既定截止日前达成，并强调存在多名潜在买家参与竞逐",
+      "gt_date": "2024-11-21",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 5.0,
+      "delta_days": 71,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E05",
+      "event_desc": "政府层面评估一项替代性交易结构：平台本国业务独立化但核心算法以“授权/租赁”形式保留在原控制方，以试图满足法律要求并避免完全出售技术",
+      "gt_date": "2024-11-23",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 3.0,
+      "delta_days": 73,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E06",
+      "event_desc": "行政当局再次签署命令，将对短视频平台“剥离否则下架”的最后期限再延长约两个月",
+      "gt_date": "2024-11-25",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 1.0,
+      "delta_days": 75,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E07",
+      "event_desc": "监管部门向应用商店出具书面保证，确认在新一轮延期期间继续保留该平台上架不会被处罚",
+      "gt_date": "2024-11-27",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 1.0,
+      "delta_days": 77,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E09",
+      "event_desc": "新政府推动的所有权交易进入与一家大型科技公司及外部投资者集团的谈判阶段，母公司拟保留少数股权",
+      "gt_date": "2024-09-18",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 9.0,
+      "delta_days": 7,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E10",
+      "event_desc": "领导人公开表示将在约一个月内对平台收购作出决定，并点名若干潜在买家",
+      "gt_date": "2024-09-19",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 8.0,
+      "delta_days": 8,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E11",
+      "event_desc": "该短视频平台先行重新上架主要应用商店，但仅限已下载老用户可用、新用户暂无法下载",
+      "gt_date": "2024-10-06",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 9.0,
+      "delta_days": 25,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E12",
+      "event_desc": "某东北亚国监管机构确认一家聊天机器人公司曾向平台母公司共享用户数据，此前一日将其下架",
+      "gt_date": "2024-10-11",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 14.0,
+      "delta_days": 30,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E13",
+      "event_desc": "领导人首次提出禁令截止期限可能进一步延长，并否认平台谈判与对外国关税协议存在直接关联",
+      "gt_date": "2024-11-22",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 4.0,
+      "delta_days": 72,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E14",
+      "event_desc": "领导人签署行政命令将平台剥离出售期限再延长约两个半月，并将交易与对外国关税政策公开挂钩",
+      "gt_date": "2024-11-24",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 2.0,
+      "delta_days": 74,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E15",
+      "event_desc": "领导人A签署行政令，将公司Y出售平台X国家A资产的期限延长75天",
+      "gt_date": "2024-11-26",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 0.0,
+      "delta_days": 76,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E16",
+      "event_desc": "多名潜在买家公开表示有意竞购平台X国家A业务，公司Y称与监管方谈判仍在继续、关键问题待解",
+      "gt_date": "2024-11-28",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 2.0,
+      "delta_days": 78,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E17",
+      "event_desc": "领导人A指定副总统副总统V负责促成平台X的潜在出售交易",
+      "gt_date": "2024-09-30",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 3.0,
+      "delta_days": 19,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    }
+  ],
+  "per_run": [
+    {
+      "mae_days": null,
+      "weighted_mae_days": null,
+      "baseline_wmae": null,
+      "score_100": null,
+      "events_scored": 0,
+      "events_total": 16,
+      "sum_weights": 0,
+      "details": [
+        {
+          "id": "E01",
+          "event": "行政当局签署命令，将对短视频平台在本国的强制处置/下架执法期限延长约两个月，并向相关企业释放“暂不追责”信号以维持服务",
+          "date": "2024-09-21",
+          "group": 1,
+          "days_from_cutoff": 10,
+          "eid": "E01",
+          "event_desc": "行政当局签署命令，将对短视频平台在本国的强制处置/下架执法期限延长约两个月，并向相关企业释放“暂不追责”信号以维持服务",
+          "gt_date": "2024-09-21",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E02",
+          "event": "行政当局签署命令推进设立主权财富基金，并公开表示该基金可能被用于收购短视频平台相关资产",
+          "date": "2024-09-26",
+          "group": 2,
+          "days_from_cutoff": 15,
+          "eid": "E02",
+          "event_desc": "行政当局签署命令推进设立主权财富基金，并公开表示该基金可能被用于收购短视频平台相关资产",
+          "gt_date": "2024-09-26",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E03",
+          "event": "在监管部门出具书面“免罚/不追责”保证后，两大应用商店恢复该短视频平台在本国的上架与下载",
+          "date": "2024-10-07",
+          "group": 3,
+          "days_from_cutoff": 26,
+          "eid": "E03",
+          "event_desc": "在监管部门出具书面“免罚/不追责”保证后，两大应用商店恢复该短视频平台在本国的上架与下载",
+          "gt_date": "2024-10-07",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E04",
+          "event": "行政首脑公开表示短视频平台交易将在既定截止日前达成，并强调存在多名潜在买家参与竞逐",
+          "date": "2024-11-21",
+          "group": 4,
+          "days_from_cutoff": 71,
+          "eid": "E04",
+          "event_desc": "行政首脑公开表示短视频平台交易将在既定截止日前达成，并强调存在多名潜在买家参与竞逐",
+          "gt_date": "2024-11-21",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E05",
+          "event": "政府层面评估一项替代性交易结构：平台本国业务独立化但核心算法以“授权/租赁”形式保留在原控制方，以试图满足法律要求并避免完全出售技术",
+          "date": "2024-11-23",
+          "group": 5,
+          "days_from_cutoff": 73,
+          "eid": "E05",
+          "event_desc": "政府层面评估一项替代性交易结构：平台本国业务独立化但核心算法以“授权/租赁”形式保留在原控制方，以试图满足法律要求并避免完全出售技术",
+          "gt_date": "2024-11-23",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E06",
+          "event": "行政当局再次签署命令，将对短视频平台“剥离否则下架”的最后期限再延长约两个月",
+          "date": "2024-11-25",
+          "group": 6,
+          "days_from_cutoff": 75,
+          "eid": "E06",
+          "event_desc": "行政当局再次签署命令，将对短视频平台“剥离否则下架”的最后期限再延长约两个月",
+          "gt_date": "2024-11-25",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E07",
+          "event": "监管部门向应用商店出具书面保证，确认在新一轮延期期间继续保留该平台上架不会被处罚",
+          "date": "2024-11-27",
+          "group": 7,
+          "days_from_cutoff": 77,
+          "eid": "E07",
+          "event_desc": "监管部门向应用商店出具书面保证，确认在新一轮延期期间继续保留该平台上架不会被处罚",
+          "gt_date": "2024-11-27",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E09",
+          "event": "新政府推动的所有权交易进入与一家大型科技公司及外部投资者集团的谈判阶段，母公司拟保留少数股权",
+          "date": "2024-09-18",
+          "group": 1,
+          "days_from_cutoff": 7,
+          "eid": "E09",
+          "event_desc": "新政府推动的所有权交易进入与一家大型科技公司及外部投资者集团的谈判阶段，母公司拟保留少数股权",
+          "gt_date": "2024-09-18",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E10",
+          "event": "领导人公开表示将在约一个月内对平台收购作出决定，并点名若干潜在买家",
+          "date": "2024-09-19",
+          "group": 2,
+          "days_from_cutoff": 8,
+          "eid": "E10",
+          "event_desc": "领导人公开表示将在约一个月内对平台收购作出决定，并点名若干潜在买家",
+          "gt_date": "2024-09-19",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E11",
+          "event": "该短视频平台先行重新上架主要应用商店，但仅限已下载老用户可用、新用户暂无法下载",
+          "date": "2024-10-06",
+          "group": 3,
+          "days_from_cutoff": 25,
+          "eid": "E11",
+          "event_desc": "该短视频平台先行重新上架主要应用商店，但仅限已下载老用户可用、新用户暂无法下载",
+          "gt_date": "2024-10-06",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E12",
+          "event": "某东北亚国监管机构确认一家聊天机器人公司曾向平台母公司共享用户数据，此前一日将其下架",
+          "date": "2024-10-11",
+          "group": 4,
+          "days_from_cutoff": 30,
+          "eid": "E12",
+          "event_desc": "某东北亚国监管机构确认一家聊天机器人公司曾向平台母公司共享用户数据，此前一日将其下架",
+          "gt_date": "2024-10-11",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E13",
+          "event": "领导人首次提出禁令截止期限可能进一步延长，并否认平台谈判与对外国关税协议存在直接关联",
+          "date": "2024-11-22",
+          "group": 5,
+          "days_from_cutoff": 72,
+          "eid": "E13",
+          "event_desc": "领导人首次提出禁令截止期限可能进一步延长，并否认平台谈判与对外国关税协议存在直接关联",
+          "gt_date": "2024-11-22",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E14",
+          "event": "领导人签署行政命令将平台剥离出售期限再延长约两个半月，并将交易与对外国关税政策公开挂钩",
+          "date": "2024-11-24",
+          "group": 6,
+          "days_from_cutoff": 74,
+          "eid": "E14",
+          "event_desc": "领导人签署行政命令将平台剥离出售期限再延长约两个半月，并将交易与对外国关税政策公开挂钩",
+          "gt_date": "2024-11-24",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E15",
+          "event": "领导人A签署行政令，将公司Y出售平台X国家A资产的期限延长75天",
+          "date": "2024-11-26",
+          "group": 1,
+          "days_from_cutoff": 76,
+          "eid": "E15",
+          "event_desc": "领导人A签署行政令，将公司Y出售平台X国家A资产的期限延长75天",
+          "gt_date": "2024-11-26",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E16",
+          "event": "多名潜在买家公开表示有意竞购平台X国家A业务，公司Y称与监管方谈判仍在继续、关键问题待解",
+          "date": "2024-11-28",
+          "group": 2,
+          "days_from_cutoff": 78,
+          "eid": "E16",
+          "event_desc": "多名潜在买家公开表示有意竞购平台X国家A业务，公司Y称与监管方谈判仍在继续、关键问题待解",
+          "gt_date": "2024-11-28",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E17",
+          "event": "领导人A指定副总统副总统V负责促成平台X的潜在出售交易",
+          "date": "2024-09-30",
+          "group": 7,
+          "days_from_cutoff": 19,
+          "eid": "E17",
+          "event_desc": "领导人A指定副总统副总统V负责促成平台X的潜在出售交易",
+          "gt_date": "2024-09-30",
+          "pred_date": null,
+          "error_days": null
+        }
+      ]
+    }
+  ],
+  "per_run_with_default": [
+    {
+      "mae_days": 4.88,
+      "weighted_mae_days": 5.8,
+      "baseline_wmae": 5.7,
+      "score_100": 49.56,
+      "events_scored": 16,
+      "events_total": 16,
+      "sum_weights": 6.9022,
+      "details": [
+        {
+          "id": "E01",
+          "event": "行政当局签署命令，将对短视频平台在本国的强制处置/下架执法期限延长约两个月，并向相关企业释放“暂不追责”信号以维持服务",
+          "date": "2024-09-21",
+          "group": 1,
+          "days_from_cutoff": 10,
+          "eid": "E01",
+          "event_desc": "行政当局签署命令，将对短视频平台在本国的强制处置/下架执法期限延长约两个月，并向相关企业释放“暂不追责”信号以维持服务",
+          "gt_date": "2024-09-21",
+          "pred_date": "2024-09-27",
+          "error_days": 6,
+          "weight": 0.7143
+        },
+        {
+          "id": "E02",
+          "event": "行政当局签署命令推进设立主权财富基金，并公开表示该基金可能被用于收购短视频平台相关资产",
+          "date": "2024-09-26",
+          "group": 2,
+          "days_from_cutoff": 15,
+          "eid": "E02",
+          "event_desc": "行政当局签署命令推进设立主权财富基金，并公开表示该基金可能被用于收购短视频平台相关资产",
+          "gt_date": "2024-09-26",
+          "pred_date": "2024-09-27",
+          "error_days": 1,
+          "weight": 0.625
+        },
+        {
+          "id": "E03",
+          "event": "在监管部门出具书面“免罚/不追责”保证后，两大应用商店恢复该短视频平台在本国的上架与下载",
+          "date": "2024-10-07",
+          "group": 3,
+          "days_from_cutoff": 26,
+          "eid": "E03",
+          "event_desc": "在监管部门出具书面“免罚/不追责”保证后，两大应用商店恢复该短视频平台在本国的上架与下载",
+          "gt_date": "2024-10-07",
+          "pred_date": "2024-09-27",
+          "error_days": 10,
+          "weight": 0.4902
+        },
+        {
+          "id": "E04",
+          "event": "行政首脑公开表示短视频平台交易将在既定截止日前达成，并强调存在多名潜在买家参与竞逐",
+          "date": "2024-11-21",
+          "group": 4,
+          "days_from_cutoff": 71,
+          "eid": "E04",
+          "event_desc": "行政首脑公开表示短视频平台交易将在既定截止日前达成，并强调存在多名潜在买家参与竞逐",
+          "gt_date": "2024-11-21",
+          "pred_date": "2024-11-26",
+          "error_days": 5,
+          "weight": 0.2604
+        },
+        {
+          "id": "E05",
+          "event": "政府层面评估一项替代性交易结构：平台本国业务独立化但核心算法以“授权/租赁”形式保留在原控制方，以试图满足法律要求并避免完全出售技术",
+          "date": "2024-11-23",
+          "group": 5,
+          "days_from_cutoff": 73,
+          "eid": "E05",
+          "event_desc": "政府层面评估一项替代性交易结构：平台本国业务独立化但核心算法以“授权/租赁”形式保留在原控制方，以试图满足法律要求并避免完全出售技术",
+          "gt_date": "2024-11-23",
+          "pred_date": "2024-11-26",
+          "error_days": 3,
+          "weight": 0.2551
+        },
+        {
+          "id": "E06",
+          "event": "行政当局再次签署命令，将对短视频平台“剥离否则下架”的最后期限再延长约两个月",
+          "date": "2024-11-25",
+          "group": 6,
+          "days_from_cutoff": 75,
+          "eid": "E06",
+          "event_desc": "行政当局再次签署命令，将对短视频平台“剥离否则下架”的最后期限再延长约两个月",
+          "gt_date": "2024-11-25",
+          "pred_date": "2024-11-26",
+          "error_days": 1,
+          "weight": 0.25
+        },
+        {
+          "id": "E07",
+          "event": "监管部门向应用商店出具书面保证，确认在新一轮延期期间继续保留该平台上架不会被处罚",
+          "date": "2024-11-27",
+          "group": 7,
+          "days_from_cutoff": 77,
+          "eid": "E07",
+          "event_desc": "监管部门向应用商店出具书面保证，确认在新一轮延期期间继续保留该平台上架不会被处罚",
+          "gt_date": "2024-11-27",
+          "pred_date": "2024-11-26",
+          "error_days": 1,
+          "weight": 0.2451
+        },
+        {
+          "id": "E09",
+          "event": "新政府推动的所有权交易进入与一家大型科技公司及外部投资者集团的谈判阶段，母公司拟保留少数股权",
+          "date": "2024-09-18",
+          "group": 1,
+          "days_from_cutoff": 7,
+          "eid": "E09",
+          "event_desc": "新政府推动的所有权交易进入与一家大型科技公司及外部投资者集团的谈判阶段，母公司拟保留少数股权",
+          "gt_date": "2024-09-18",
+          "pred_date": "2024-09-27",
+          "error_days": 9,
+          "weight": 0.7812
+        },
+        {
+          "id": "E10",
+          "event": "领导人公开表示将在约一个月内对平台收购作出决定，并点名若干潜在买家",
+          "date": "2024-09-19",
+          "group": 2,
+          "days_from_cutoff": 8,
+          "eid": "E10",
+          "event_desc": "领导人公开表示将在约一个月内对平台收购作出决定，并点名若干潜在买家",
+          "gt_date": "2024-09-19",
+          "pred_date": "2024-09-27",
+          "error_days": 8,
+          "weight": 0.7576
+        },
+        {
+          "id": "E11",
+          "event": "该短视频平台先行重新上架主要应用商店，但仅限已下载老用户可用、新用户暂无法下载",
+          "date": "2024-10-06",
+          "group": 3,
+          "days_from_cutoff": 25,
+          "eid": "E11",
+          "event_desc": "该短视频平台先行重新上架主要应用商店，但仅限已下载老用户可用、新用户暂无法下载",
+          "gt_date": "2024-10-06",
+          "pred_date": "2024-09-27",
+          "error_days": 9,
+          "weight": 0.5
+        },
+        {
+          "id": "E12",
+          "event": "某东北亚国监管机构确认一家聊天机器人公司曾向平台母公司共享用户数据，此前一日将其下架",
+          "date": "2024-10-11",
+          "group": 4,
+          "days_from_cutoff": 30,
+          "eid": "E12",
+          "event_desc": "某东北亚国监管机构确认一家聊天机器人公司曾向平台母公司共享用户数据，此前一日将其下架",
+          "gt_date": "2024-10-11",
+          "pred_date": "2024-09-27",
+          "error_days": 14,
+          "weight": 0.4545
+        },
+        {
+          "id": "E13",
+          "event": "领导人首次提出禁令截止期限可能进一步延长，并否认平台谈判与对外国关税协议存在直接关联",
+          "date": "2024-11-22",
+          "group": 5,
+          "days_from_cutoff": 72,
+          "eid": "E13",
+          "event_desc": "领导人首次提出禁令截止期限可能进一步延长，并否认平台谈判与对外国关税协议存在直接关联",
+          "gt_date": "2024-11-22",
+          "pred_date": "2024-11-26",
+          "error_days": 4,
+          "weight": 0.2577
+        },
+        {
+          "id": "E14",
+          "event": "领导人签署行政命令将平台剥离出售期限再延长约两个半月，并将交易与对外国关税政策公开挂钩",
+          "date": "2024-11-24",
+          "group": 6,
+          "days_from_cutoff": 74,
+          "eid": "E14",
+          "event_desc": "领导人签署行政命令将平台剥离出售期限再延长约两个半月，并将交易与对外国关税政策公开挂钩",
+          "gt_date": "2024-11-24",
+          "pred_date": "2024-11-26",
+          "error_days": 2,
+          "weight": 0.2525
+        },
+        {
+          "id": "E15",
+          "event": "领导人A签署行政令，将公司Y出售平台X国家A资产的期限延长75天",
+          "date": "2024-11-26",
+          "group": 1,
+          "days_from_cutoff": 76,
+          "eid": "E15",
+          "event_desc": "领导人A签署行政令，将公司Y出售平台X国家A资产的期限延长75天",
+          "gt_date": "2024-11-26",
+          "pred_date": "2024-11-26",
+          "error_days": 0,
+          "weight": 0.2475
+        },
+        {
+          "id": "E16",
+          "event": "多名潜在买家公开表示有意竞购平台X国家A业务，公司Y称与监管方谈判仍在继续、关键问题待解",
+          "date": "2024-11-28",
+          "group": 2,
+          "days_from_cutoff": 78,
+          "eid": "E16",
+          "event_desc": "多名潜在买家公开表示有意竞购平台X国家A业务，公司Y称与监管方谈判仍在继续、关键问题待解",
+          "gt_date": "2024-11-28",
+          "pred_date": "2024-11-26",
+          "error_days": 2,
+          "weight": 0.2427
+        },
+        {
+          "id": "E17",
+          "event": "领导人A指定副总统副总统V负责促成平台X的潜在出售交易",
+          "date": "2024-09-30",
+          "group": 7,
+          "days_from_cutoff": 19,
+          "eid": "E17",
+          "event_desc": "领导人A指定副总统副总统V负责促成平台X的潜在出售交易",
+          "gt_date": "2024-09-30",
+          "pred_date": "2024-09-27",
+          "error_days": 3,
+          "weight": 0.5682
+        }
+      ]
+    }
+  ],
+  "n_runs_completed": 1,
+  "answer_attempt_histogram": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "null": 16
+  },
+  "attempt_records": [
+    {
+      "run": 1,
+      "attempt": 1,
+      "asked": 16,
+      "answered": 0,
+      "still_missing": 16,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 2,
+      "asked": 16,
+      "answered": 0,
+      "still_missing": 16,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 3,
+      "asked": 16,
+      "answered": 0,
+      "still_missing": 16,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 4,
+      "asked": 16,
+      "answered": 0,
+      "still_missing": 16,
+      "request_error": 1
+    }
+  ],
+  "max_answer_attempts": 3,
+  "retry_wait_seconds": 60,
+  "runs_per_point": 1,
+  "n_dmx_fail": 16,
+  "n_model_fail": 0,
+  "dmx_error_frac": 1.0,
+  "model_fail_frac": 0.0,
+  "invalid_frac": 1.0,
+  "validity_policy": "1run_retry4_3plus1dmx_fail_excluded_default_as_secondary",
+  "density_check": {
+    "total_90d": 16,
+    "seg1": 8,
+    "seg2": 0,
+    "seg3": 8,
+    "status": "weak"
+  }
+}

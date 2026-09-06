@@ -1,0 +1,1856 @@
+{
+  "point_id": "P06",
+  "model": "gemma3:12b",
+  "cutoff_date": "2023-10-30",
+  "events_total": 39,
+  "events_scored": 0,
+  "weighted_mae_days": null,
+  "baseline_wmae": null,
+  "score_100": null,
+  "score_answered": null,
+  "score_with_default": 49.06,
+  "weighted_mae_with_default": 8.15,
+  "predictions": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "events": [
+    {
+      "eid": "E01",
+      "event_desc": "国家A立法机构下院以压倒性跨党派票数通过一项强制短视频平台在限定期限内完成“合格剥离”否则将被禁用的法案，并将其送交上院审议",
+      "gt_date": "2023-11-04",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 11.0,
+      "delta_days": 5,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E02",
+      "event_desc": "国家A行政当局公开重申支持强制该短视频平台母公司撤资出售的立法，强调目标是解决数据安全风险而非直接禁用应用",
+      "gt_date": "2023-11-08",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 7.0,
+      "delta_days": 9,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E03",
+      "event_desc": "国家A副总统级别官员首次公开表态称政府“不打算封禁”该短视频平台，论述焦点在所有权结构而非平台本身",
+      "gt_date": "2023-11-15",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 0.0,
+      "delta_days": 16,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E04",
+      "event_desc": "国家A立法机构下院将强制剥离条款打包进对外援助法案并再次高票通过，调整剥离期限与可延期机制后推动进入最终立法流程",
+      "gt_date": "2023-12-12",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 3.0,
+      "delta_days": 43,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E05",
+      "event_desc": "国家A总统签署生效强制短视频平台母公司在约一年内完成剥离否则禁用的法律，平台方随后公开表示将以诉讼方式挑战",
+      "gt_date": "2023-12-15",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 0.0,
+      "delta_days": 46,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E06",
+      "event_desc": "该短视频平台母公司公开否认任何出售计划并确认将对新法提起司法挑战，强硬表态剥离交易不可行",
+      "gt_date": "2023-12-18",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 3.0,
+      "delta_days": 49,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E07",
+      "event_desc": "该短视频平台及其母公司正式向国家A联邦法院起诉挑战强制剥离法律，主张其违宪并将导致被迫关停在当地业务",
+      "gt_date": "2023-12-29",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 14.0,
+      "delta_days": 60,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E08",
+      "event_desc": "众议院党派领袖将强制剥离条款打包进对外援助法案推动其加速通过",
+      "gt_date": "2023-12-10",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 5.0,
+      "delta_days": 41,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E09",
+      "event_desc": "参议院相关委员会主席推动将剥离出售期限由六个月延长至九个月并表态支持法案",
+      "gt_date": "2023-12-14",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 1.0,
+      "delta_days": 45,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E10",
+      "event_desc": "一位知名科技企业家公开反对该禁令称即便有利于自家平台也违背言论自由原则",
+      "gt_date": "2023-12-13",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 2.0,
+      "delta_days": 44,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E11",
+      "event_desc": "平台资深法律高管转任专责顾问牵头领导推翻剥离法律的法律行动",
+      "gt_date": "2023-12-19",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 4.0,
+      "delta_days": 50,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E12",
+      "event_desc": "平台在另一国的分公司确认不再任命新总经理且当地监管调查大幅推进",
+      "gt_date": "2023-12-20",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 5.0,
+      "delta_days": 51,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E13",
+      "event_desc": "平台与大型音乐公司就版税与人工智能政策达成和解相关音乐重新上架",
+      "gt_date": "2023-12-23",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 8.0,
+      "delta_days": 54,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E14",
+      "event_desc": "前营销高管提交修正诉讼指控境外母公司对平台的实际控制远超公开承认",
+      "gt_date": "2023-12-28",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 13.0,
+      "delta_days": 59,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E15",
+      "event_desc": "一家支持某前总统的政治行动委员会正式入驻该平台开设账号",
+      "gt_date": "2023-12-30",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 15.0,
+      "delta_days": 61,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E16",
+      "event_desc": "多家公民自由与数字权利组织递交法庭之友意见书主张某州对该平台的禁令违宪",
+      "gt_date": "2024-01-01",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 13.0,
+      "delta_days": 63,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E17",
+      "event_desc": "一家大型科技竞争对手公司单季度游说支出创下纪录其时间线与剥离法案推进高度重合",
+      "gt_date": "2024-01-03",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 11.0,
+      "delta_days": 65,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E18",
+      "event_desc": "一位地产大亨宣布联合投行组建财团竞购该平台并提出数据开源重构方案",
+      "gt_date": "2024-01-06",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 8.0,
+      "delta_days": 68,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E19",
+      "event_desc": "平台与政府联合申请加速审理诉讼并提出九月开庭的时间表",
+      "gt_date": "2024-01-11",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 3.0,
+      "delta_days": 73,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E20",
+      "event_desc": "平台宣布限制境外国家附属媒体账号内容进入推荐流并禁止其跨境投放广告",
+      "gt_date": "2024-01-14",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 0.0,
+      "delta_days": 76,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E21",
+      "event_desc": "联邦法院正式公布该平台挑战剥离法律诉讼的快速审理时间表确定九月开庭",
+      "gt_date": "2024-01-20",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 6.0,
+      "delta_days": 82,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E22",
+      "event_desc": "平台着手开发本国独立版核心算法以隔离本国用户数据缓解监管担忧",
+      "gt_date": "2024-01-21",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 7.0,
+      "delta_days": 83,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E23",
+      "event_desc": "曾试图封禁该平台的某前总统正式入驻该平台并发布首条视频粉丝迅速暴涨",
+      "gt_date": "2024-01-23",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 9.0,
+      "delta_days": 85,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E24",
+      "event_desc": "平台被曝出零日漏洞攻击导致多个名人及品牌官方账号遭入侵",
+      "gt_date": "2024-01-26",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 12.0,
+      "delta_days": 88,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E25",
+      "event_desc": "机构D以50票赞成、0票反对全票通过要求公司Y在165天内剥离对平台X所有权、否则平台X将国家A国下架的法案",
+      "gt_date": "2023-10-31",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 15.0,
+      "delta_days": 1,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E26",
+      "event_desc": "总统领导人B公开表态支持该剥离法案，称若法案在机构F通过他将签署成法",
+      "gt_date": "2023-10-31",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 15.0,
+      "delta_days": 1,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E27",
+      "event_desc": "平台X向用户大规模推送弹窗警告称应用面临被机构F关闭风险、并引导用户致电所在选区机构F议员，导致议员办公室接到大量选民电话甚至威胁信息",
+      "gt_date": "2023-10-31",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 15.0,
+      "delta_days": 1,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E28",
+      "event_desc": "机构M多数党领袖人物U表示机构M将尝试以需三分之二多数票的快速程序推动该剥离法案通过",
+      "gt_date": "2023-11-02",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 13.0,
+      "delta_days": 3,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E29",
+      "event_desc": "国家安全官员为机构M全体众议员举行机密简报会，专门说明平台X带来的国家安全威胁",
+      "gt_date": "2023-11-03",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 12.0,
+      "delta_days": 4,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E30",
+      "event_desc": "机构K局长人物四十六及两党议员公开将平台X视为国家安全威胁",
+      "gt_date": "2023-11-03",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 12.0,
+      "delta_days": 4,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E31",
+      "event_desc": "平台X首席执行官CEO_C前往城市A展开游说、公开批评该剥离法案将增强其他社交媒体公司权力并威胁超30万个工作岗位",
+      "gt_date": "2023-11-05",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 10.0,
+      "delta_days": 6,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E32",
+      "event_desc": "机构L正副主席议员W和议员R发表联合声明，期待推动剥离法案在机构Z通过并由总统签署成法",
+      "gt_date": "2023-11-05",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 10.0,
+      "delta_days": 6,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E33",
+      "event_desc": "平台X正式推出创作者奖励计划，取代原有的创作者基金及创意计划测试版，将收益与观看时长、互动、搜索价值及广告价值四大维度挂钩",
+      "gt_date": "2023-11-10",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 5.0,
+      "delta_days": 11,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E34",
+      "event_desc": "机构L与机构四成员在地点A参加由机构K、机构B及机构五高级官员主持的机密简报会后、两党议员公开就平台X国家安全风险发声",
+      "gt_date": "2023-11-11",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 4.0,
+      "delta_days": 12,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E35",
+      "event_desc": "地区E政党C参议员议员C将平台X比作瞄准国家A人头部的枪支、指控政党A正武器化从1.7亿国家A用户处秘密收集的信息",
+      "gt_date": "2023-11-11",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 4.0,
+      "delta_days": 12,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E36",
+      "event_desc": "机构四主席议员MC2表示其委员会预计将对机构M通过的平台X法案进行审议和修正、但未给出推进立法的时间表",
+      "gt_date": "2023-11-11",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 4.0,
+      "delta_days": 12,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E37",
+      "event_desc": "平台X首席执行官CEO_C访问地点A与参议员会面，试图阻止可能封禁该应用的法案通过",
+      "gt_date": "2023-11-12",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 3.0,
+      "delta_days": 13,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E38",
+      "event_desc": "机构M议长人物V公开表态支持剥离法案、称平台X实际上是政党A的监视工具，机构M少数党领袖人物三也表态支持称其为负责任的两党国家安全措施",
+      "gt_date": "2023-11-12",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 3.0,
+      "delta_days": 13,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    },
+    {
+      "eid": "E39",
+      "event_desc": "前机构二十一长人物二宣布已组建投资者团队有意收购平台X，估值可能高达1500亿美元且需获机构G批准",
+      "gt_date": "2023-12-13",
+      "pred_date": "",
+      "error_days": 999,
+      "error_days_with_default": 2.0,
+      "delta_days": 44,
+      "n_runs": 1,
+      "answer_attempt": [
+        null
+      ],
+      "per_run_pred_date": [
+        null
+      ],
+      "answered": false,
+      "fail_kind": "dmx",
+      "is_default_fill": true
+    }
+  ],
+  "per_run": [
+    {
+      "mae_days": null,
+      "weighted_mae_days": null,
+      "baseline_wmae": null,
+      "score_100": null,
+      "events_scored": 0,
+      "events_total": 39,
+      "sum_weights": 0,
+      "details": [
+        {
+          "id": "E01",
+          "event": "国家A立法机构下院以压倒性跨党派票数通过一项强制短视频平台在限定期限内完成“合格剥离”否则将被禁用的法案，并将其送交上院审议",
+          "date": "2023-11-04",
+          "group": 1,
+          "days_from_cutoff": 5,
+          "eid": "E01",
+          "event_desc": "国家A立法机构下院以压倒性跨党派票数通过一项强制短视频平台在限定期限内完成“合格剥离”否则将被禁用的法案，并将其送交上院审议",
+          "gt_date": "2023-11-04",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E02",
+          "event": "国家A行政当局公开重申支持强制该短视频平台母公司撤资出售的立法，强调目标是解决数据安全风险而非直接禁用应用",
+          "date": "2023-11-08",
+          "group": 2,
+          "days_from_cutoff": 9,
+          "eid": "E02",
+          "event_desc": "国家A行政当局公开重申支持强制该短视频平台母公司撤资出售的立法，强调目标是解决数据安全风险而非直接禁用应用",
+          "gt_date": "2023-11-08",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E03",
+          "event": "国家A副总统级别官员首次公开表态称政府“不打算封禁”该短视频平台，论述焦点在所有权结构而非平台本身",
+          "date": "2023-11-15",
+          "group": 3,
+          "days_from_cutoff": 16,
+          "eid": "E03",
+          "event_desc": "国家A副总统级别官员首次公开表态称政府“不打算封禁”该短视频平台，论述焦点在所有权结构而非平台本身",
+          "gt_date": "2023-11-15",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E04",
+          "event": "国家A立法机构下院将强制剥离条款打包进对外援助法案并再次高票通过，调整剥离期限与可延期机制后推动进入最终立法流程",
+          "date": "2023-12-12",
+          "group": 4,
+          "days_from_cutoff": 43,
+          "eid": "E04",
+          "event_desc": "国家A立法机构下院将强制剥离条款打包进对外援助法案并再次高票通过，调整剥离期限与可延期机制后推动进入最终立法流程",
+          "gt_date": "2023-12-12",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E05",
+          "event": "国家A总统签署生效强制短视频平台母公司在约一年内完成剥离否则禁用的法律，平台方随后公开表示将以诉讼方式挑战",
+          "date": "2023-12-15",
+          "group": 5,
+          "days_from_cutoff": 46,
+          "eid": "E05",
+          "event_desc": "国家A总统签署生效强制短视频平台母公司在约一年内完成剥离否则禁用的法律，平台方随后公开表示将以诉讼方式挑战",
+          "gt_date": "2023-12-15",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E06",
+          "event": "该短视频平台母公司公开否认任何出售计划并确认将对新法提起司法挑战，强硬表态剥离交易不可行",
+          "date": "2023-12-18",
+          "group": 6,
+          "days_from_cutoff": 49,
+          "eid": "E06",
+          "event_desc": "该短视频平台母公司公开否认任何出售计划并确认将对新法提起司法挑战，强硬表态剥离交易不可行",
+          "gt_date": "2023-12-18",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E07",
+          "event": "该短视频平台及其母公司正式向国家A联邦法院起诉挑战强制剥离法律，主张其违宪并将导致被迫关停在当地业务",
+          "date": "2023-12-29",
+          "group": 7,
+          "days_from_cutoff": 60,
+          "eid": "E07",
+          "event_desc": "该短视频平台及其母公司正式向国家A联邦法院起诉挑战强制剥离法律，主张其违宪并将导致被迫关停在当地业务",
+          "gt_date": "2023-12-29",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E08",
+          "event": "众议院党派领袖将强制剥离条款打包进对外援助法案推动其加速通过",
+          "date": "2023-12-10",
+          "group": 1,
+          "days_from_cutoff": 41,
+          "eid": "E08",
+          "event_desc": "众议院党派领袖将强制剥离条款打包进对外援助法案推动其加速通过",
+          "gt_date": "2023-12-10",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E09",
+          "event": "参议院相关委员会主席推动将剥离出售期限由六个月延长至九个月并表态支持法案",
+          "date": "2023-12-14",
+          "group": 1,
+          "days_from_cutoff": 45,
+          "eid": "E09",
+          "event_desc": "参议院相关委员会主席推动将剥离出售期限由六个月延长至九个月并表态支持法案",
+          "gt_date": "2023-12-14",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E10",
+          "event": "一位知名科技企业家公开反对该禁令称即便有利于自家平台也违背言论自由原则",
+          "date": "2023-12-13",
+          "group": 2,
+          "days_from_cutoff": 44,
+          "eid": "E10",
+          "event_desc": "一位知名科技企业家公开反对该禁令称即便有利于自家平台也违背言论自由原则",
+          "gt_date": "2023-12-13",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E11",
+          "event": "平台资深法律高管转任专责顾问牵头领导推翻剥离法律的法律行动",
+          "date": "2023-12-19",
+          "group": 3,
+          "days_from_cutoff": 50,
+          "eid": "E11",
+          "event_desc": "平台资深法律高管转任专责顾问牵头领导推翻剥离法律的法律行动",
+          "gt_date": "2023-12-19",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E12",
+          "event": "平台在另一国的分公司确认不再任命新总经理且当地监管调查大幅推进",
+          "date": "2023-12-20",
+          "group": 4,
+          "days_from_cutoff": 51,
+          "eid": "E12",
+          "event_desc": "平台在另一国的分公司确认不再任命新总经理且当地监管调查大幅推进",
+          "gt_date": "2023-12-20",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E13",
+          "event": "平台与大型音乐公司就版税与人工智能政策达成和解相关音乐重新上架",
+          "date": "2023-12-23",
+          "group": 5,
+          "days_from_cutoff": 54,
+          "eid": "E13",
+          "event_desc": "平台与大型音乐公司就版税与人工智能政策达成和解相关音乐重新上架",
+          "gt_date": "2023-12-23",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E14",
+          "event": "前营销高管提交修正诉讼指控境外母公司对平台的实际控制远超公开承认",
+          "date": "2023-12-28",
+          "group": 6,
+          "days_from_cutoff": 59,
+          "eid": "E14",
+          "event_desc": "前营销高管提交修正诉讼指控境外母公司对平台的实际控制远超公开承认",
+          "gt_date": "2023-12-28",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E15",
+          "event": "一家支持某前总统的政治行动委员会正式入驻该平台开设账号",
+          "date": "2023-12-30",
+          "group": 7,
+          "days_from_cutoff": 61,
+          "eid": "E15",
+          "event_desc": "一家支持某前总统的政治行动委员会正式入驻该平台开设账号",
+          "gt_date": "2023-12-30",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E16",
+          "event": "多家公民自由与数字权利组织递交法庭之友意见书主张某州对该平台的禁令违宪",
+          "date": "2024-01-01",
+          "group": 8,
+          "days_from_cutoff": 63,
+          "eid": "E16",
+          "event_desc": "多家公民自由与数字权利组织递交法庭之友意见书主张某州对该平台的禁令违宪",
+          "gt_date": "2024-01-01",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E17",
+          "event": "一家大型科技竞争对手公司单季度游说支出创下纪录其时间线与剥离法案推进高度重合",
+          "date": "2024-01-03",
+          "group": 9,
+          "days_from_cutoff": 65,
+          "eid": "E17",
+          "event_desc": "一家大型科技竞争对手公司单季度游说支出创下纪录其时间线与剥离法案推进高度重合",
+          "gt_date": "2024-01-03",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E18",
+          "event": "一位地产大亨宣布联合投行组建财团竞购该平台并提出数据开源重构方案",
+          "date": "2024-01-06",
+          "group": 10,
+          "days_from_cutoff": 68,
+          "eid": "E18",
+          "event_desc": "一位地产大亨宣布联合投行组建财团竞购该平台并提出数据开源重构方案",
+          "gt_date": "2024-01-06",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E19",
+          "event": "平台与政府联合申请加速审理诉讼并提出九月开庭的时间表",
+          "date": "2024-01-11",
+          "group": 11,
+          "days_from_cutoff": 73,
+          "eid": "E19",
+          "event_desc": "平台与政府联合申请加速审理诉讼并提出九月开庭的时间表",
+          "gt_date": "2024-01-11",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E20",
+          "event": "平台宣布限制境外国家附属媒体账号内容进入推荐流并禁止其跨境投放广告",
+          "date": "2024-01-14",
+          "group": 12,
+          "days_from_cutoff": 76,
+          "eid": "E20",
+          "event_desc": "平台宣布限制境外国家附属媒体账号内容进入推荐流并禁止其跨境投放广告",
+          "gt_date": "2024-01-14",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E21",
+          "event": "联邦法院正式公布该平台挑战剥离法律诉讼的快速审理时间表确定九月开庭",
+          "date": "2024-01-20",
+          "group": 13,
+          "days_from_cutoff": 82,
+          "eid": "E21",
+          "event_desc": "联邦法院正式公布该平台挑战剥离法律诉讼的快速审理时间表确定九月开庭",
+          "gt_date": "2024-01-20",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E22",
+          "event": "平台着手开发本国独立版核心算法以隔离本国用户数据缓解监管担忧",
+          "date": "2024-01-21",
+          "group": 14,
+          "days_from_cutoff": 83,
+          "eid": "E22",
+          "event_desc": "平台着手开发本国独立版核心算法以隔离本国用户数据缓解监管担忧",
+          "gt_date": "2024-01-21",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E23",
+          "event": "曾试图封禁该平台的某前总统正式入驻该平台并发布首条视频粉丝迅速暴涨",
+          "date": "2024-01-23",
+          "group": 15,
+          "days_from_cutoff": 85,
+          "eid": "E23",
+          "event_desc": "曾试图封禁该平台的某前总统正式入驻该平台并发布首条视频粉丝迅速暴涨",
+          "gt_date": "2024-01-23",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E24",
+          "event": "平台被曝出零日漏洞攻击导致多个名人及品牌官方账号遭入侵",
+          "date": "2024-01-26",
+          "group": 16,
+          "days_from_cutoff": 88,
+          "eid": "E24",
+          "event_desc": "平台被曝出零日漏洞攻击导致多个名人及品牌官方账号遭入侵",
+          "gt_date": "2024-01-26",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E25",
+          "event": "机构D以50票赞成、0票反对全票通过要求公司Y在165天内剥离对平台X所有权、否则平台X将国家A国下架的法案",
+          "date": "2023-10-31",
+          "group": 101,
+          "days_from_cutoff": 1,
+          "eid": "E25",
+          "event_desc": "机构D以50票赞成、0票反对全票通过要求公司Y在165天内剥离对平台X所有权、否则平台X将国家A国下架的法案",
+          "gt_date": "2023-10-31",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E26",
+          "event": "总统领导人B公开表态支持该剥离法案，称若法案在机构F通过他将签署成法",
+          "date": "2023-10-31",
+          "group": 102,
+          "days_from_cutoff": 1,
+          "eid": "E26",
+          "event_desc": "总统领导人B公开表态支持该剥离法案，称若法案在机构F通过他将签署成法",
+          "gt_date": "2023-10-31",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E27",
+          "event": "平台X向用户大规模推送弹窗警告称应用面临被机构F关闭风险、并引导用户致电所在选区机构F议员，导致议员办公室接到大量选民电话甚至威胁信息",
+          "date": "2023-10-31",
+          "group": 103,
+          "days_from_cutoff": 1,
+          "eid": "E27",
+          "event_desc": "平台X向用户大规模推送弹窗警告称应用面临被机构F关闭风险、并引导用户致电所在选区机构F议员，导致议员办公室接到大量选民电话甚至威胁信息",
+          "gt_date": "2023-10-31",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E28",
+          "event": "机构M多数党领袖人物U表示机构M将尝试以需三分之二多数票的快速程序推动该剥离法案通过",
+          "date": "2023-11-02",
+          "group": 104,
+          "days_from_cutoff": 3,
+          "eid": "E28",
+          "event_desc": "机构M多数党领袖人物U表示机构M将尝试以需三分之二多数票的快速程序推动该剥离法案通过",
+          "gt_date": "2023-11-02",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E29",
+          "event": "国家安全官员为机构M全体众议员举行机密简报会，专门说明平台X带来的国家安全威胁",
+          "date": "2023-11-03",
+          "group": 105,
+          "days_from_cutoff": 4,
+          "eid": "E29",
+          "event_desc": "国家安全官员为机构M全体众议员举行机密简报会，专门说明平台X带来的国家安全威胁",
+          "gt_date": "2023-11-03",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E30",
+          "event": "机构K局长人物四十六及两党议员公开将平台X视为国家安全威胁",
+          "date": "2023-11-03",
+          "group": 106,
+          "days_from_cutoff": 4,
+          "eid": "E30",
+          "event_desc": "机构K局长人物四十六及两党议员公开将平台X视为国家安全威胁",
+          "gt_date": "2023-11-03",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E31",
+          "event": "平台X首席执行官CEO_C前往城市A展开游说、公开批评该剥离法案将增强其他社交媒体公司权力并威胁超30万个工作岗位",
+          "date": "2023-11-05",
+          "group": 107,
+          "days_from_cutoff": 6,
+          "eid": "E31",
+          "event_desc": "平台X首席执行官CEO_C前往城市A展开游说、公开批评该剥离法案将增强其他社交媒体公司权力并威胁超30万个工作岗位",
+          "gt_date": "2023-11-05",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E32",
+          "event": "机构L正副主席议员W和议员R发表联合声明，期待推动剥离法案在机构Z通过并由总统签署成法",
+          "date": "2023-11-05",
+          "group": 108,
+          "days_from_cutoff": 6,
+          "eid": "E32",
+          "event_desc": "机构L正副主席议员W和议员R发表联合声明，期待推动剥离法案在机构Z通过并由总统签署成法",
+          "gt_date": "2023-11-05",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E33",
+          "event": "平台X正式推出创作者奖励计划，取代原有的创作者基金及创意计划测试版，将收益与观看时长、互动、搜索价值及广告价值四大维度挂钩",
+          "date": "2023-11-10",
+          "group": 109,
+          "days_from_cutoff": 11,
+          "eid": "E33",
+          "event_desc": "平台X正式推出创作者奖励计划，取代原有的创作者基金及创意计划测试版，将收益与观看时长、互动、搜索价值及广告价值四大维度挂钩",
+          "gt_date": "2023-11-10",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E34",
+          "event": "机构L与机构四成员在地点A参加由机构K、机构B及机构五高级官员主持的机密简报会后、两党议员公开就平台X国家安全风险发声",
+          "date": "2023-11-11",
+          "group": 110,
+          "days_from_cutoff": 12,
+          "eid": "E34",
+          "event_desc": "机构L与机构四成员在地点A参加由机构K、机构B及机构五高级官员主持的机密简报会后、两党议员公开就平台X国家安全风险发声",
+          "gt_date": "2023-11-11",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E35",
+          "event": "地区E政党C参议员议员C将平台X比作瞄准国家A人头部的枪支、指控政党A正武器化从1.7亿国家A用户处秘密收集的信息",
+          "date": "2023-11-11",
+          "group": 111,
+          "days_from_cutoff": 12,
+          "eid": "E35",
+          "event_desc": "地区E政党C参议员议员C将平台X比作瞄准国家A人头部的枪支、指控政党A正武器化从1.7亿国家A用户处秘密收集的信息",
+          "gt_date": "2023-11-11",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E36",
+          "event": "机构四主席议员MC2表示其委员会预计将对机构M通过的平台X法案进行审议和修正、但未给出推进立法的时间表",
+          "date": "2023-11-11",
+          "group": 112,
+          "days_from_cutoff": 12,
+          "eid": "E36",
+          "event_desc": "机构四主席议员MC2表示其委员会预计将对机构M通过的平台X法案进行审议和修正、但未给出推进立法的时间表",
+          "gt_date": "2023-11-11",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E37",
+          "event": "平台X首席执行官CEO_C访问地点A与参议员会面，试图阻止可能封禁该应用的法案通过",
+          "date": "2023-11-12",
+          "group": 113,
+          "days_from_cutoff": 13,
+          "eid": "E37",
+          "event_desc": "平台X首席执行官CEO_C访问地点A与参议员会面，试图阻止可能封禁该应用的法案通过",
+          "gt_date": "2023-11-12",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E38",
+          "event": "机构M议长人物V公开表态支持剥离法案、称平台X实际上是政党A的监视工具，机构M少数党领袖人物三也表态支持称其为负责任的两党国家安全措施",
+          "date": "2023-11-12",
+          "group": 114,
+          "days_from_cutoff": 13,
+          "eid": "E38",
+          "event_desc": "机构M议长人物V公开表态支持剥离法案、称平台X实际上是政党A的监视工具，机构M少数党领袖人物三也表态支持称其为负责任的两党国家安全措施",
+          "gt_date": "2023-11-12",
+          "pred_date": null,
+          "error_days": null
+        },
+        {
+          "id": "E39",
+          "event": "前机构二十一长人物二宣布已组建投资者团队有意收购平台X，估值可能高达1500亿美元且需获机构G批准",
+          "date": "2023-12-13",
+          "group": 115,
+          "days_from_cutoff": 44,
+          "eid": "E39",
+          "event_desc": "前机构二十一长人物二宣布已组建投资者团队有意收购平台X，估值可能高达1500亿美元且需获机构G批准",
+          "gt_date": "2023-12-13",
+          "pred_date": null,
+          "error_days": null
+        }
+      ]
+    }
+  ],
+  "per_run_with_default": [
+    {
+      "mae_days": 7.36,
+      "weighted_mae_days": 8.15,
+      "baseline_wmae": 7.85,
+      "score_100": 49.07,
+      "events_scored": 39,
+      "events_total": 39,
+      "sum_weights": 19.9564,
+      "details": [
+        {
+          "id": "E01",
+          "event": "国家A立法机构下院以压倒性跨党派票数通过一项强制短视频平台在限定期限内完成“合格剥离”否则将被禁用的法案，并将其送交上院审议",
+          "date": "2023-11-04",
+          "group": 1,
+          "days_from_cutoff": 5,
+          "eid": "E01",
+          "event_desc": "国家A立法机构下院以压倒性跨党派票数通过一项强制短视频平台在限定期限内完成“合格剥离”否则将被禁用的法案，并将其送交上院审议",
+          "gt_date": "2023-11-04",
+          "pred_date": "2023-11-15",
+          "error_days": 11,
+          "weight": 0.8333
+        },
+        {
+          "id": "E02",
+          "event": "国家A行政当局公开重申支持强制该短视频平台母公司撤资出售的立法，强调目标是解决数据安全风险而非直接禁用应用",
+          "date": "2023-11-08",
+          "group": 2,
+          "days_from_cutoff": 9,
+          "eid": "E02",
+          "event_desc": "国家A行政当局公开重申支持强制该短视频平台母公司撤资出售的立法，强调目标是解决数据安全风险而非直接禁用应用",
+          "gt_date": "2023-11-08",
+          "pred_date": "2023-11-15",
+          "error_days": 7,
+          "weight": 0.7353
+        },
+        {
+          "id": "E03",
+          "event": "国家A副总统级别官员首次公开表态称政府“不打算封禁”该短视频平台，论述焦点在所有权结构而非平台本身",
+          "date": "2023-11-15",
+          "group": 3,
+          "days_from_cutoff": 16,
+          "eid": "E03",
+          "event_desc": "国家A副总统级别官员首次公开表态称政府“不打算封禁”该短视频平台，论述焦点在所有权结构而非平台本身",
+          "gt_date": "2023-11-15",
+          "pred_date": "2023-11-15",
+          "error_days": 0,
+          "weight": 0.6098
+        },
+        {
+          "id": "E04",
+          "event": "国家A立法机构下院将强制剥离条款打包进对外援助法案并再次高票通过，调整剥离期限与可延期机制后推动进入最终立法流程",
+          "date": "2023-12-12",
+          "group": 4,
+          "days_from_cutoff": 43,
+          "eid": "E04",
+          "event_desc": "国家A立法机构下院将强制剥离条款打包进对外援助法案并再次高票通过，调整剥离期限与可延期机制后推动进入最终立法流程",
+          "gt_date": "2023-12-12",
+          "pred_date": "2023-12-15",
+          "error_days": 3,
+          "weight": 0.3676
+        },
+        {
+          "id": "E05",
+          "event": "国家A总统签署生效强制短视频平台母公司在约一年内完成剥离否则禁用的法律，平台方随后公开表示将以诉讼方式挑战",
+          "date": "2023-12-15",
+          "group": 5,
+          "days_from_cutoff": 46,
+          "eid": "E05",
+          "event_desc": "国家A总统签署生效强制短视频平台母公司在约一年内完成剥离否则禁用的法律，平台方随后公开表示将以诉讼方式挑战",
+          "gt_date": "2023-12-15",
+          "pred_date": "2023-12-15",
+          "error_days": 0,
+          "weight": 0.3521
+        },
+        {
+          "id": "E06",
+          "event": "该短视频平台母公司公开否认任何出售计划并确认将对新法提起司法挑战，强硬表态剥离交易不可行",
+          "date": "2023-12-18",
+          "group": 6,
+          "days_from_cutoff": 49,
+          "eid": "E06",
+          "event_desc": "该短视频平台母公司公开否认任何出售计划并确认将对新法提起司法挑战，强硬表态剥离交易不可行",
+          "gt_date": "2023-12-18",
+          "pred_date": "2023-12-15",
+          "error_days": 3,
+          "weight": 0.3378
+        },
+        {
+          "id": "E07",
+          "event": "该短视频平台及其母公司正式向国家A联邦法院起诉挑战强制剥离法律，主张其违宪并将导致被迫关停在当地业务",
+          "date": "2023-12-29",
+          "group": 7,
+          "days_from_cutoff": 60,
+          "eid": "E07",
+          "event_desc": "该短视频平台及其母公司正式向国家A联邦法院起诉挑战强制剥离法律，主张其违宪并将导致被迫关停在当地业务",
+          "gt_date": "2023-12-29",
+          "pred_date": "2023-12-15",
+          "error_days": 14,
+          "weight": 0.2941
+        },
+        {
+          "id": "E08",
+          "event": "众议院党派领袖将强制剥离条款打包进对外援助法案推动其加速通过",
+          "date": "2023-12-10",
+          "group": 1,
+          "days_from_cutoff": 41,
+          "eid": "E08",
+          "event_desc": "众议院党派领袖将强制剥离条款打包进对外援助法案推动其加速通过",
+          "gt_date": "2023-12-10",
+          "pred_date": "2023-12-15",
+          "error_days": 5,
+          "weight": 0.3788
+        },
+        {
+          "id": "E09",
+          "event": "参议院相关委员会主席推动将剥离出售期限由六个月延长至九个月并表态支持法案",
+          "date": "2023-12-14",
+          "group": 1,
+          "days_from_cutoff": 45,
+          "eid": "E09",
+          "event_desc": "参议院相关委员会主席推动将剥离出售期限由六个月延长至九个月并表态支持法案",
+          "gt_date": "2023-12-14",
+          "pred_date": "2023-12-15",
+          "error_days": 1,
+          "weight": 0.3571
+        },
+        {
+          "id": "E10",
+          "event": "一位知名科技企业家公开反对该禁令称即便有利于自家平台也违背言论自由原则",
+          "date": "2023-12-13",
+          "group": 2,
+          "days_from_cutoff": 44,
+          "eid": "E10",
+          "event_desc": "一位知名科技企业家公开反对该禁令称即便有利于自家平台也违背言论自由原则",
+          "gt_date": "2023-12-13",
+          "pred_date": "2023-12-15",
+          "error_days": 2,
+          "weight": 0.3623
+        },
+        {
+          "id": "E11",
+          "event": "平台资深法律高管转任专责顾问牵头领导推翻剥离法律的法律行动",
+          "date": "2023-12-19",
+          "group": 3,
+          "days_from_cutoff": 50,
+          "eid": "E11",
+          "event_desc": "平台资深法律高管转任专责顾问牵头领导推翻剥离法律的法律行动",
+          "gt_date": "2023-12-19",
+          "pred_date": "2023-12-15",
+          "error_days": 4,
+          "weight": 0.3333
+        },
+        {
+          "id": "E12",
+          "event": "平台在另一国的分公司确认不再任命新总经理且当地监管调查大幅推进",
+          "date": "2023-12-20",
+          "group": 4,
+          "days_from_cutoff": 51,
+          "eid": "E12",
+          "event_desc": "平台在另一国的分公司确认不再任命新总经理且当地监管调查大幅推进",
+          "gt_date": "2023-12-20",
+          "pred_date": "2023-12-15",
+          "error_days": 5,
+          "weight": 0.3289
+        },
+        {
+          "id": "E13",
+          "event": "平台与大型音乐公司就版税与人工智能政策达成和解相关音乐重新上架",
+          "date": "2023-12-23",
+          "group": 5,
+          "days_from_cutoff": 54,
+          "eid": "E13",
+          "event_desc": "平台与大型音乐公司就版税与人工智能政策达成和解相关音乐重新上架",
+          "gt_date": "2023-12-23",
+          "pred_date": "2023-12-15",
+          "error_days": 8,
+          "weight": 0.3165
+        },
+        {
+          "id": "E14",
+          "event": "前营销高管提交修正诉讼指控境外母公司对平台的实际控制远超公开承认",
+          "date": "2023-12-28",
+          "group": 6,
+          "days_from_cutoff": 59,
+          "eid": "E14",
+          "event_desc": "前营销高管提交修正诉讼指控境外母公司对平台的实际控制远超公开承认",
+          "gt_date": "2023-12-28",
+          "pred_date": "2023-12-15",
+          "error_days": 13,
+          "weight": 0.2976
+        },
+        {
+          "id": "E15",
+          "event": "一家支持某前总统的政治行动委员会正式入驻该平台开设账号",
+          "date": "2023-12-30",
+          "group": 7,
+          "days_from_cutoff": 61,
+          "eid": "E15",
+          "event_desc": "一家支持某前总统的政治行动委员会正式入驻该平台开设账号",
+          "gt_date": "2023-12-30",
+          "pred_date": "2024-01-14",
+          "error_days": 15,
+          "weight": 0.2907
+        },
+        {
+          "id": "E16",
+          "event": "多家公民自由与数字权利组织递交法庭之友意见书主张某州对该平台的禁令违宪",
+          "date": "2024-01-01",
+          "group": 8,
+          "days_from_cutoff": 63,
+          "eid": "E16",
+          "event_desc": "多家公民自由与数字权利组织递交法庭之友意见书主张某州对该平台的禁令违宪",
+          "gt_date": "2024-01-01",
+          "pred_date": "2024-01-14",
+          "error_days": 13,
+          "weight": 0.2841
+        },
+        {
+          "id": "E17",
+          "event": "一家大型科技竞争对手公司单季度游说支出创下纪录其时间线与剥离法案推进高度重合",
+          "date": "2024-01-03",
+          "group": 9,
+          "days_from_cutoff": 65,
+          "eid": "E17",
+          "event_desc": "一家大型科技竞争对手公司单季度游说支出创下纪录其时间线与剥离法案推进高度重合",
+          "gt_date": "2024-01-03",
+          "pred_date": "2024-01-14",
+          "error_days": 11,
+          "weight": 0.2778
+        },
+        {
+          "id": "E18",
+          "event": "一位地产大亨宣布联合投行组建财团竞购该平台并提出数据开源重构方案",
+          "date": "2024-01-06",
+          "group": 10,
+          "days_from_cutoff": 68,
+          "eid": "E18",
+          "event_desc": "一位地产大亨宣布联合投行组建财团竞购该平台并提出数据开源重构方案",
+          "gt_date": "2024-01-06",
+          "pred_date": "2024-01-14",
+          "error_days": 8,
+          "weight": 0.2688
+        },
+        {
+          "id": "E19",
+          "event": "平台与政府联合申请加速审理诉讼并提出九月开庭的时间表",
+          "date": "2024-01-11",
+          "group": 11,
+          "days_from_cutoff": 73,
+          "eid": "E19",
+          "event_desc": "平台与政府联合申请加速审理诉讼并提出九月开庭的时间表",
+          "gt_date": "2024-01-11",
+          "pred_date": "2024-01-14",
+          "error_days": 3,
+          "weight": 0.2551
+        },
+        {
+          "id": "E20",
+          "event": "平台宣布限制境外国家附属媒体账号内容进入推荐流并禁止其跨境投放广告",
+          "date": "2024-01-14",
+          "group": 12,
+          "days_from_cutoff": 76,
+          "eid": "E20",
+          "event_desc": "平台宣布限制境外国家附属媒体账号内容进入推荐流并禁止其跨境投放广告",
+          "gt_date": "2024-01-14",
+          "pred_date": "2024-01-14",
+          "error_days": 0,
+          "weight": 0.2475
+        },
+        {
+          "id": "E21",
+          "event": "联邦法院正式公布该平台挑战剥离法律诉讼的快速审理时间表确定九月开庭",
+          "date": "2024-01-20",
+          "group": 13,
+          "days_from_cutoff": 82,
+          "eid": "E21",
+          "event_desc": "联邦法院正式公布该平台挑战剥离法律诉讼的快速审理时间表确定九月开庭",
+          "gt_date": "2024-01-20",
+          "pred_date": "2024-01-14",
+          "error_days": 6,
+          "weight": 0.2336
+        },
+        {
+          "id": "E22",
+          "event": "平台着手开发本国独立版核心算法以隔离本国用户数据缓解监管担忧",
+          "date": "2024-01-21",
+          "group": 14,
+          "days_from_cutoff": 83,
+          "eid": "E22",
+          "event_desc": "平台着手开发本国独立版核心算法以隔离本国用户数据缓解监管担忧",
+          "gt_date": "2024-01-21",
+          "pred_date": "2024-01-14",
+          "error_days": 7,
+          "weight": 0.2315
+        },
+        {
+          "id": "E23",
+          "event": "曾试图封禁该平台的某前总统正式入驻该平台并发布首条视频粉丝迅速暴涨",
+          "date": "2024-01-23",
+          "group": 15,
+          "days_from_cutoff": 85,
+          "eid": "E23",
+          "event_desc": "曾试图封禁该平台的某前总统正式入驻该平台并发布首条视频粉丝迅速暴涨",
+          "gt_date": "2024-01-23",
+          "pred_date": "2024-01-14",
+          "error_days": 9,
+          "weight": 0.2273
+        },
+        {
+          "id": "E24",
+          "event": "平台被曝出零日漏洞攻击导致多个名人及品牌官方账号遭入侵",
+          "date": "2024-01-26",
+          "group": 16,
+          "days_from_cutoff": 88,
+          "eid": "E24",
+          "event_desc": "平台被曝出零日漏洞攻击导致多个名人及品牌官方账号遭入侵",
+          "gt_date": "2024-01-26",
+          "pred_date": "2024-01-14",
+          "error_days": 12,
+          "weight": 0.2212
+        },
+        {
+          "id": "E25",
+          "event": "机构D以50票赞成、0票反对全票通过要求公司Y在165天内剥离对平台X所有权、否则平台X将国家A国下架的法案",
+          "date": "2023-10-31",
+          "group": 101,
+          "days_from_cutoff": 1,
+          "eid": "E25",
+          "event_desc": "机构D以50票赞成、0票反对全票通过要求公司Y在165天内剥离对平台X所有权、否则平台X将国家A国下架的法案",
+          "gt_date": "2023-10-31",
+          "pred_date": "2023-11-15",
+          "error_days": 15,
+          "weight": 0.9615
+        },
+        {
+          "id": "E26",
+          "event": "总统领导人B公开表态支持该剥离法案，称若法案在机构F通过他将签署成法",
+          "date": "2023-10-31",
+          "group": 102,
+          "days_from_cutoff": 1,
+          "eid": "E26",
+          "event_desc": "总统领导人B公开表态支持该剥离法案，称若法案在机构F通过他将签署成法",
+          "gt_date": "2023-10-31",
+          "pred_date": "2023-11-15",
+          "error_days": 15,
+          "weight": 0.9615
+        },
+        {
+          "id": "E27",
+          "event": "平台X向用户大规模推送弹窗警告称应用面临被机构F关闭风险、并引导用户致电所在选区机构F议员，导致议员办公室接到大量选民电话甚至威胁信息",
+          "date": "2023-10-31",
+          "group": 103,
+          "days_from_cutoff": 1,
+          "eid": "E27",
+          "event_desc": "平台X向用户大规模推送弹窗警告称应用面临被机构F关闭风险、并引导用户致电所在选区机构F议员，导致议员办公室接到大量选民电话甚至威胁信息",
+          "gt_date": "2023-10-31",
+          "pred_date": "2023-11-15",
+          "error_days": 15,
+          "weight": 0.9615
+        },
+        {
+          "id": "E28",
+          "event": "机构M多数党领袖人物U表示机构M将尝试以需三分之二多数票的快速程序推动该剥离法案通过",
+          "date": "2023-11-02",
+          "group": 104,
+          "days_from_cutoff": 3,
+          "eid": "E28",
+          "event_desc": "机构M多数党领袖人物U表示机构M将尝试以需三分之二多数票的快速程序推动该剥离法案通过",
+          "gt_date": "2023-11-02",
+          "pred_date": "2023-11-15",
+          "error_days": 13,
+          "weight": 0.8929
+        },
+        {
+          "id": "E29",
+          "event": "国家安全官员为机构M全体众议员举行机密简报会，专门说明平台X带来的国家安全威胁",
+          "date": "2023-11-03",
+          "group": 105,
+          "days_from_cutoff": 4,
+          "eid": "E29",
+          "event_desc": "国家安全官员为机构M全体众议员举行机密简报会，专门说明平台X带来的国家安全威胁",
+          "gt_date": "2023-11-03",
+          "pred_date": "2023-11-15",
+          "error_days": 12,
+          "weight": 0.8621
+        },
+        {
+          "id": "E30",
+          "event": "机构K局长人物四十六及两党议员公开将平台X视为国家安全威胁",
+          "date": "2023-11-03",
+          "group": 106,
+          "days_from_cutoff": 4,
+          "eid": "E30",
+          "event_desc": "机构K局长人物四十六及两党议员公开将平台X视为国家安全威胁",
+          "gt_date": "2023-11-03",
+          "pred_date": "2023-11-15",
+          "error_days": 12,
+          "weight": 0.8621
+        },
+        {
+          "id": "E31",
+          "event": "平台X首席执行官CEO_C前往城市A展开游说、公开批评该剥离法案将增强其他社交媒体公司权力并威胁超30万个工作岗位",
+          "date": "2023-11-05",
+          "group": 107,
+          "days_from_cutoff": 6,
+          "eid": "E31",
+          "event_desc": "平台X首席执行官CEO_C前往城市A展开游说、公开批评该剥离法案将增强其他社交媒体公司权力并威胁超30万个工作岗位",
+          "gt_date": "2023-11-05",
+          "pred_date": "2023-11-15",
+          "error_days": 10,
+          "weight": 0.8065
+        },
+        {
+          "id": "E32",
+          "event": "机构L正副主席议员W和议员R发表联合声明，期待推动剥离法案在机构Z通过并由总统签署成法",
+          "date": "2023-11-05",
+          "group": 108,
+          "days_from_cutoff": 6,
+          "eid": "E32",
+          "event_desc": "机构L正副主席议员W和议员R发表联合声明，期待推动剥离法案在机构Z通过并由总统签署成法",
+          "gt_date": "2023-11-05",
+          "pred_date": "2023-11-15",
+          "error_days": 10,
+          "weight": 0.8065
+        },
+        {
+          "id": "E33",
+          "event": "平台X正式推出创作者奖励计划，取代原有的创作者基金及创意计划测试版，将收益与观看时长、互动、搜索价值及广告价值四大维度挂钩",
+          "date": "2023-11-10",
+          "group": 109,
+          "days_from_cutoff": 11,
+          "eid": "E33",
+          "event_desc": "平台X正式推出创作者奖励计划，取代原有的创作者基金及创意计划测试版，将收益与观看时长、互动、搜索价值及广告价值四大维度挂钩",
+          "gt_date": "2023-11-10",
+          "pred_date": "2023-11-15",
+          "error_days": 5,
+          "weight": 0.6944
+        },
+        {
+          "id": "E34",
+          "event": "机构L与机构四成员在地点A参加由机构K、机构B及机构五高级官员主持的机密简报会后、两党议员公开就平台X国家安全风险发声",
+          "date": "2023-11-11",
+          "group": 110,
+          "days_from_cutoff": 12,
+          "eid": "E34",
+          "event_desc": "机构L与机构四成员在地点A参加由机构K、机构B及机构五高级官员主持的机密简报会后、两党议员公开就平台X国家安全风险发声",
+          "gt_date": "2023-11-11",
+          "pred_date": "2023-11-15",
+          "error_days": 4,
+          "weight": 0.6757
+        },
+        {
+          "id": "E35",
+          "event": "地区E政党C参议员议员C将平台X比作瞄准国家A人头部的枪支、指控政党A正武器化从1.7亿国家A用户处秘密收集的信息",
+          "date": "2023-11-11",
+          "group": 111,
+          "days_from_cutoff": 12,
+          "eid": "E35",
+          "event_desc": "地区E政党C参议员议员C将平台X比作瞄准国家A人头部的枪支、指控政党A正武器化从1.7亿国家A用户处秘密收集的信息",
+          "gt_date": "2023-11-11",
+          "pred_date": "2023-11-15",
+          "error_days": 4,
+          "weight": 0.6757
+        },
+        {
+          "id": "E36",
+          "event": "机构四主席议员MC2表示其委员会预计将对机构M通过的平台X法案进行审议和修正、但未给出推进立法的时间表",
+          "date": "2023-11-11",
+          "group": 112,
+          "days_from_cutoff": 12,
+          "eid": "E36",
+          "event_desc": "机构四主席议员MC2表示其委员会预计将对机构M通过的平台X法案进行审议和修正、但未给出推进立法的时间表",
+          "gt_date": "2023-11-11",
+          "pred_date": "2023-11-15",
+          "error_days": 4,
+          "weight": 0.6757
+        },
+        {
+          "id": "E37",
+          "event": "平台X首席执行官CEO_C访问地点A与参议员会面，试图阻止可能封禁该应用的法案通过",
+          "date": "2023-11-12",
+          "group": 113,
+          "days_from_cutoff": 13,
+          "eid": "E37",
+          "event_desc": "平台X首席执行官CEO_C访问地点A与参议员会面，试图阻止可能封禁该应用的法案通过",
+          "gt_date": "2023-11-12",
+          "pred_date": "2023-11-15",
+          "error_days": 3,
+          "weight": 0.6579
+        },
+        {
+          "id": "E38",
+          "event": "机构M议长人物V公开表态支持剥离法案、称平台X实际上是政党A的监视工具，机构M少数党领袖人物三也表态支持称其为负责任的两党国家安全措施",
+          "date": "2023-11-12",
+          "group": 114,
+          "days_from_cutoff": 13,
+          "eid": "E38",
+          "event_desc": "机构M议长人物V公开表态支持剥离法案、称平台X实际上是政党A的监视工具，机构M少数党领袖人物三也表态支持称其为负责任的两党国家安全措施",
+          "gt_date": "2023-11-12",
+          "pred_date": "2023-11-15",
+          "error_days": 3,
+          "weight": 0.6579
+        },
+        {
+          "id": "E39",
+          "event": "前机构二十一长人物二宣布已组建投资者团队有意收购平台X，估值可能高达1500亿美元且需获机构G批准",
+          "date": "2023-12-13",
+          "group": 115,
+          "days_from_cutoff": 44,
+          "eid": "E39",
+          "event_desc": "前机构二十一长人物二宣布已组建投资者团队有意收购平台X，估值可能高达1500亿美元且需获机构G批准",
+          "gt_date": "2023-12-13",
+          "pred_date": "2023-12-15",
+          "error_days": 2,
+          "weight": 0.3623
+        }
+      ]
+    }
+  ],
+  "n_runs_completed": 1,
+  "answer_attempt_histogram": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "null": 39
+  },
+  "attempt_records": [
+    {
+      "run": 1,
+      "attempt": 1,
+      "asked": 39,
+      "answered": 0,
+      "still_missing": 39,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 2,
+      "asked": 39,
+      "answered": 0,
+      "still_missing": 39,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 3,
+      "asked": 39,
+      "answered": 0,
+      "still_missing": 39,
+      "request_error": 1
+    },
+    {
+      "run": 1,
+      "attempt": 4,
+      "asked": 39,
+      "answered": 0,
+      "still_missing": 39,
+      "request_error": 1
+    }
+  ],
+  "max_answer_attempts": 3,
+  "retry_wait_seconds": 60,
+  "runs_per_point": 1,
+  "n_dmx_fail": 39,
+  "n_model_fail": 0,
+  "dmx_error_frac": 1.0,
+  "model_fail_frac": 0.0,
+  "invalid_frac": 1.0,
+  "validity_policy": "1run_retry4_3plus1dmx_fail_excluded_default_as_secondary",
+  "density_check": {
+    "total_90d": 39,
+    "seg1": 17,
+    "seg2": 12,
+    "seg3": 10,
+    "status": "ok"
+  }
+}

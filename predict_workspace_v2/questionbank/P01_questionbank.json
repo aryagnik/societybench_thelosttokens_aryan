@@ -1,0 +1,181 @@
+{
+  "point_id": "P01",
+  "cutoff_date": "2025-07-01",
+  "gt_span_days": 0,
+  "events": {
+    "base": [
+      {
+        "id": "E01",
+        "event": "劳工问题进展",
+        "date": "2025-07-01",
+        "group": 1,
+        "days_from_cutoff": 0,
+        "eid": "E01",
+        "event_desc": "劳工问题进展",
+        "gt_date": "2025-07-01"
+      },
+      {
+        "id": "E02",
+        "event": "裁员、停产、劳动争议处理",
+        "date": "2025-07-01",
+        "group": 1,
+        "days_from_cutoff": 0,
+        "eid": "E02",
+        "event_desc": "裁员、停产、劳动争议处理",
+        "gt_date": "2025-07-01"
+      }
+    ],
+    "all": [
+      {
+        "id": "E01",
+        "event": "劳工问题进展",
+        "date": "2025-07-01",
+        "group": 1,
+        "days_from_cutoff": 0,
+        "eid": "E01",
+        "event_desc": "劳工问题进展",
+        "gt_date": "2025-07-01"
+      },
+      {
+        "id": "E02",
+        "event": "裁员、停产、劳动争议处理",
+        "date": "2025-07-01",
+        "group": 1,
+        "days_from_cutoff": 0,
+        "eid": "E02",
+        "event_desc": "裁员、停产、劳动争议处理",
+        "gt_date": "2025-07-01"
+      }
+    ],
+    "major": [
+      {
+        "id": "E01",
+        "event": "劳工问题进展",
+        "date": "2025-07-01",
+        "group": 1,
+        "days_from_cutoff": 0,
+        "eid": "E01",
+        "event_desc": "劳工问题进展",
+        "gt_date": "2025-07-01"
+      },
+      {
+        "id": "E02",
+        "event": "裁员、停产、劳动争议处理",
+        "date": "2025-07-01",
+        "group": 1,
+        "days_from_cutoff": 0,
+        "eid": "E02",
+        "event_desc": "裁员、停产、劳动争议处理",
+        "gt_date": "2025-07-01"
+      }
+    ]
+  },
+  "brier_questions": [
+    {
+      "q": "营收增速是否低于2025年7月1日的预期区间下限？",
+      "answer": 1,
+      "difficulty": "easy",
+      "dimension": "事件",
+      "time_window": "7天",
+      "d_target": "2025-07-01",
+      "window_days": 4,
+      "days_from_cutoff": 3,
+      "event_group": "E01",
+      "question_type": "B_true",
+      "qid": 1,
+      "event_desc": "营收增速是否低于2025年7月1日的预期区间下限？",
+      "gt": 1
+    },
+    {
+      "q": "劳工问题进展是否导致公司被换审计机构？",
+      "answer": 1,
+      "difficulty": "easy",
+      "dimension": "事件",
+      "time_window": "7天",
+      "d_target": "2025-07-01",
+      "window_days": 4,
+      "days_from_cutoff": 3,
+      "event_group": "E01",
+      "question_type": "C_true",
+      "qid": 2,
+      "event_desc": "劳工问题进展是否导致公司被换审计机构？",
+      "gt": 1
+    },
+    {
+      "q": "在2025-07-01，劳工问题进展是否已经发生？",
+      "answer": 0,
+      "difficulty": "hard",
+      "dimension": "事件",
+      "time_window": "7天",
+      "d_target": "2025-07-01",
+      "window_days": 1,
+      "days_from_cutoff": 0,
+      "event_group": "D_1",
+      "question_type": "D_false",
+      "qid": 3,
+      "event_desc": "在2025-07-01，劳工问题进展是否已经发生？",
+      "gt": 0
+    }
+  ],
+  "eval_config": {
+    "eval_models": [
+      "deepseek-r1:1.5b",
+      "deepseek-r1:1.5b",
+      "deepseek-r1:1.5b"
+    ],
+    "provider": "runtime_injected_at_step3",
+    "temperature": 0,
+    "reasoning": true,
+    "runs_per_point": 1
+  },
+  "meta": {
+    "base_event_count": 2,
+    "all_count": 2,
+    "major_count": 2,
+    "brier_count": 3,
+    "target_total": 15,
+    "validation": {
+      "passed": false,
+      "events_count": 2,
+      "brier_count": 3,
+      "target_total": 15,
+      "true": 2,
+      "false": 1,
+      "d_count": 1,
+      "issues": [
+        "brier_questions 题量 3 != target_total 15",
+        "真假比例 2:1=0.50，应在 0.7-1.5"
+      ]
+    },
+    "density_check": {
+      "total_90d": 0,
+      "seg1": 0,
+      "seg2": 0,
+      "seg3": 0
+    },
+    "d_postfilter": {
+      "rejected_d": 12,
+      "kept_d": 0,
+      "reasons": {
+        "gt_overlap": 1,
+        "blacklist": 0,
+        "unfalsifiable": 11
+      }
+    },
+    "sanity_sample": {
+      "sampled": 1,
+      "items": [
+        {
+          "qid": 1,
+          "leaks_specifics": false,
+          "reason": "题面仅询问营收增速是否低于预期区间下限，没有提供具体细节，无法反推出原文的详细信息。"
+        }
+      ],
+      "leaks_total": 0,
+      "model": "deepseek-r1:1.5b"
+    },
+    "cc_reviewed": false,
+    "generator_model": "deepseek-r1:1.5b",
+    "generated_at": "2026-09-06T15:40:22.710238+00:00"
+  }
+}
