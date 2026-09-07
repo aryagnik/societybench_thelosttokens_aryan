@@ -1,0 +1,30 @@
+{
+  "fact_preservation": {
+    "fact_verdict": "consistent",
+    "n_original": 0,
+    "n_anon": 0,
+    "numbers_lost": {},
+    "numbers_gained": {},
+    "_note": "确定性数字多重集比对；numbers_lost 非空=有事实数字被匿名抹掉"
+  },
+  "verdict": "consistent",
+  "llm_verdict": "consistent",
+  "llm_detail": {
+    "node_count_original": 5,
+    "node_count_anon": 5,
+    "missing_nodes": [],
+    "damages": [
+      {
+        "location": "事件完整性",
+        "issue": "事件经过完整",
+        "detail": "每个节点的事件经过完整，没有被删掉或合并"
+      }
+    ],
+    "verdict": "consistent",
+    "summary": "信息完整保留了原文的信息，包括节点数量、顺序、数字、事实和格式。"
+  },
+  "date_shift_check": {
+    "consistent": null,
+    "_error": "Expecting value: line 1 column 1 (char 0)"
+  }
+}

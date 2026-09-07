@@ -1,0 +1,25 @@
+{
+  "model": "qwen3.5_0.8b",
+  "cal": {
+    "wmae": null,
+    "n": 0,
+    "n_total": 0,
+    "n_invalid": 0,
+    "score_100": null
+  },
+  "time": {
+    "wmae_days": null,
+    "n": 0,
+    "baseline_wmae_days": null,
+    "score_100": null,
+    "v2_finalscore": null
+  },
+  "runs": {
+    "3B_runs": 1,
+    "3F_runs": 2,
+    "3F_points_with_2_runs": 0,
+    "3F_points_total": 1,
+    "3F_avg_wmae": null,
+    "3F_range_wmae": null
+  }
+}

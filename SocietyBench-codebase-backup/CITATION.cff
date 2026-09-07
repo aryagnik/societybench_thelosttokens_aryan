@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: If you use SocietyBench, please cite it as below.
+title: "SocietyBench: Forecasting Counterfactual Social-World Evolution"
+abstract: >-
+  An end-to-end benchmark for LLM and agent forecasting of real social events.
+  Each event is anonymized into a counterfactual social world, entity by entity
+  and date by date, and scored on two orthogonal 100-point axes: probability
+  calibration and temporal accuracy.
+type: software
+version: 1.0.0
+date-released: "2026-08-01"
+authors:
+  - family-names: Wang
+    given-names: Zhenran
+    email: zhenran.w.1103@gmail.com
+  - family-names: Bian
+    given-names: Zhonghan
+  - family-names: Li
+    given-names: Jinsong
+  - family-names: Qi
+    given-names: Zhangyang
+repository-code: https://github.com/co-minder/SocietyBench-codebase
+url: https://huggingface.co/datasets/Social-AI-2026/SocietyBench
+license: MIT
+keywords:
+  - benchmark
+  - large language models
+  - social forecasting
+  - probability calibration
+  - temporal reasoning

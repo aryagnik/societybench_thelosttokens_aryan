@@ -1,0 +1,16 @@
+# SocietyBench — optional Phase 0 (real crawl) dependencies
+#
+# Only needed if you want to crawl raw_web/raw_media from scratch via
+# total_pipeline.py --start-phase 0. Most users will skip Phase 0 and
+# work from existing raw data.
+#
+# Install BOTH this file AND `requirements.txt`:
+#   pip install -r requirements.txt -r requirements-crawl.txt
+#
+# Also requires:
+#   - APIFY_TOKEN env var (sign up at https://apify.com)
+#   - MCP_HOME pointing to a MediaCrawlerPro-Python install (external project)
+
+apify-client>=1.6
+beautifulsoup4>=4.12
+trafilatura>=1.8

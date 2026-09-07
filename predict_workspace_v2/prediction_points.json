@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "total_nodes": 2,
+    "total_transitions": 1,
+    "threshold_days": 365,
+    "min_context": 1,
+    "min_future": 0,
+    "target_points": 25,
+    "max_points": 30,
+    "n_eligible": 1,
+    "n_selected": 1,
+    "n_ineligible_gap": 0,
+    "n_ineligible_window": 0,
+    "n_eligible_not_selected": 0,
+    "n_eligible_quality_rejected": 0,
+    "stage_quota": {
+      "未知阶段": 1
+    },
+    "quality_review_enabled": true,
+    "quality_min": 3,
+    "source_file": "timeline_anon.md"
+  },
+  "nodes": [
+    {
+      "node_id": "N01",
+      "date": "2024-12-11",
+      "date_raw": "2024-12-11",
+      "stage": "未知阶段",
+      "line_start": 5,
+      "line_end": 10
+    },
+    {
+      "node_id": "N02",
+      "date": "2025-07-01",
+      "date_raw": "2025-07-01",
+      "stage": "未知阶段",
+      "line_start": 11,
+      "line_end": 15
+    }
+  ],
+  "prediction_points": [
+    {
+      "point_id": "P01",
+      "status": "selected",
+      "input_nodes": [
+        "N01"
+      ],
+      "target_node": "N02",
+      "target_date": "2025-07-01",
+      "target_stage": "未知阶段",
+      "gap_days": 202,
+      "predictable": true,
+      "context_depth": 1,
+      "remaining_nodes": 0,
+      "quality_score": 3
+    }
+  ]
+}

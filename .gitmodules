@@ -1,0 +1,3 @@
+[submodule "SocietyBench-codebase"]
+	path = SocietyBench-codebase
+	url = https://github.com/co-minder/SocietyBench-codebase.git

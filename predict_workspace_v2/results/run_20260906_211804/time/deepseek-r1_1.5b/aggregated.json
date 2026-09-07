@@ -1,0 +1,40 @@
+{
+  "model": "deepseek-r1:1.5b",
+  "n_points": 0,
+  "batch_size": null,
+  "validity_policy": "1run_retry4_3plus1dmx_fail_excluded_default_as_secondary",
+  "max_answer_attempts": 3,
+  "retry_wait_seconds": 60,
+  "fallback_filled_count": 0,
+  "answer_attempt_histogram": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "null": 0
+  },
+  "pooled": {
+    "score_100": null,
+    "score_answered": null,
+    "weighted_mae_days": null,
+    "baseline_wmae": null,
+    "score_with_default": null,
+    "weighted_mae_with_default": null,
+    "dmx_error_frac": 0.0,
+    "model_fail_frac": 0.0,
+    "invalid_frac": 0.0
+  },
+  "v2_finalscore": null,
+  "v2_finalscore_meta": {
+    "name": "v2_finalscore",
+    "adopted": "2026-07-06",
+    "axis": "time(3F)",
+    "role": "primary_display_score",
+    "formula": "100*(1 - weighted_mean(norm_err));  norm_err = span([d-err,d+err] ∩ [seg_lo,seg_hi]) / 30",
+    "denominator": 30,
+    "clip_to_window": true,
+    "perfect_equals_zero": true,
+    "time_weight": "1/(1+0.04*delta_days)  (与旧f/与b时间权重同)",
+    "note": "误差归一化[0,1]、线性、与b轴同族;band以真值为心半径=差天数裁进窗口(贴墙打折);完美=满分。旧pooled.score_100(双曲)保留。"
+  },
+  "per_point": {}
+}
