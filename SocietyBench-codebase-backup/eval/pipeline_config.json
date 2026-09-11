@@ -1,0 +1,141 @@
+{
+  "_description": "SocietyBench — generic pipeline runtime parameters. Edit values to tune behavior. NO event-specific entity names here; those stay out of this file. CLI flags on each script override the values below. Keys prefixed with `_` are inline documentation (loaders ignore them).",
+  "default_llm_model": "deepseek-r1:1.5b",
+  "_default_llm_model_note": "Used by summarization / dedup / classification / question-bank generation. Resolved via DMXAPI (see config.example.env).",
+  "evaluation_models": [
+    "deepseek-r1:1.5b",
+    "deepseek-r1:1.5b",
+    "deepseek-r1:1.5b"
+  ],
+  "_evaluation_models_note": "Default list of models scored in predict-step3. Override per-run with --eval-models. Any OpenAI-compatible model ID exposed by your aggregator is valid.",
+  "media_platforms": [
+    "dy",
+    "bili",
+    "wb",
+    "zhihu",
+    "tieba",
+    "xhs",
+    "ks"
+  ],
+  "_media_platforms_note": "Target platforms for media-crawl: dy=抖音, bili=B站, wb=微博, zhihu=知乎, tieba=贴吧, xhs=小红书, ks=快手. Trim or extend per event.",
+  "web_search_crawl": {
+    "max_final_urls": 2000,
+    "search_pages_per_query": 5,
+    "keywords_per_topic": 10,
+    "_note": "Hard ceiling on URLs sent into content crawler (per total-pipeline current standard <2000)."
+  },
+  "media_step0_aggregate": {
+    "top_comments_per_post": 50
+  },
+  "predict_step1_points": {
+    "interval_threshold_days": 365,
+    "min_context_nodes": 1,
+    "min_future_nodes": 0,
+    "target_points": 25,
+    "max_points": 30,
+    "_note": "Adjacent nodes farther than `interval_threshold_days` apart are treated as 'unpredictable' (cross-wave). target_points is the stage-aware budget; max_points is the hard cap. Defaults match the predict-step1-points skill."
+  },
+  "predict_step2_questionbank": {
+    "max_questions_per_point": 500,
+    "min_questions_per_point": 15,
+    "predicted_points_multiplier": 15,
+    "gt_nodes_multiplier": 8,
+    "events_count_multiplier": 2.5,
+    "d_goal_pct": 22,
+    "d_blacklist_terms": [
+      "联合国",
+      "国务院",
+      "最高人民法院",
+      "最高法",
+      "最高检",
+      "中央纪委",
+      "公安部",
+      "全国人大",
+      "马云",
+      "雷军",
+      "任正非",
+      "刘强东",
+      "10亿",
+      "1亿",
+      "500万",
+      "100万",
+      "50%",
+      "100所",
+      "100位",
+      "指导性案例",
+      "全球",
+      "国际社会"
+    ],
+    "unfalsifiable_terms": [
+      "朋友圈",
+      "私下",
+      "内部",
+      "私信",
+      "暗示",
+      "据传",
+      "据悉",
+      "知情人",
+      "匿名",
+      "小道消息",
+      "消息人士",
+      "心理状态",
+      "心理创伤",
+      "情绪",
+      "心态",
+      "密谈",
+      "闭门",
+      "非公开",
+      "秘密"
+    ],
+    "_d_blacklist_note": "D-class fake-question blacklist. The defaults above are tuned for Chinese-language events. For English events, replace with e.g. ['U.N.', 'White House', 'Supreme Court', 'Bezos', 'Musk', '$10B', '100% of', 'global', ...]. For other languages, supply your own list.",
+    "_unfalsifiable_note": "Words that imply private / unrecordable behavior. Override per language. For English: ['DMs', 'privately', 'internally', 'allegedly', 'sources say', 'emotional state', 'behind closed doors', ...].",
+    "_note": "Target count per point: max(min_q, ceil(events × events_mult), S_rule), capped at max_q. See predict-step2 skill."
+  },
+  "predict_step3_evaluation": {
+    "calibration_axis_name": "brier",
+    "temporal_axis_name": "time",
+    "calibration_runs_per_point": 1,
+    "temporal_runs_per_point": 1,
+    "max_tokens_per_call": 32000,
+    "thinking_budget_tokens": 24000,
+    "reasoning_effort_default": "high",
+    "batch_max_size": 999999,
+    "batch_max_same_group": 1,
+    "_batch_max_same_group_note": "已废弃(2026-06-22)：build_batches 改为'同事件组整组聚合、一次问完、绝不拆开'(组内窗口升序),让模型给单调自洽概率;不再按此值拆分。此参数仅保留签名兼容。",
+    "max_parallel_batches": 300,
+    "_max_parallel_batches_note": "2026-06-30 用户定:单 key + 300 线程(实验D 实测单 key 到 300 并发几乎无限流);实际并发=min(300,任务数)。",
+    "temperature": 0
+  },
+  "scoring_calibration": {
+    "formula": "weighted_mae_vs_uniform_50_pct",
+    "time_factor_coefficient": 0.04,
+    "_time_factor_note": "w_time = 1 / (1 + coef * delta_days_to_resolution)",
+    "window_factor_offset": 4,
+    "_window_factor_note": "w_window = W / (W + offset)",
+    "baseline_uniform_predictor_wmae": 1.0,
+    "_baseline_note": "零分线=1.0：全程蒙50%(误差0.5)得50分、完美得100、自信全猜反(误差1.0)得0。2026-06-22用户拍板从0.5改为1.0(纯线性换刻度:新分=旧分÷2+50)"
+  },
+  "scoring_temporal": {
+    "formula": "wmae_days_normalized_by_bucket_midpoint",
+    "bucket_days": 30,
+    "buckets_midpoint_days": [
+      15.5,
+      45.5,
+      75.5
+    ],
+    "_note": "Matching the bucket-midpoint baseline yields 50; 2x improvement yields 66.7; 2x regression yields 33.3"
+  },
+  "anonymization": {
+    "date_shift_max_days": 180,
+    "_date_shift_note": "Random per-event δ ∈ [-180, +180] days. Set to 0 to disable date shifting (ablation).",
+    "audit_max_rounds": 5,
+    "audit_model": null,
+    "_audit_model_note": "predict-step0 匿名化审计/一致性模型。null = 用 default_llm_model（默认 LLM）。审计采用 A(分类)+B(整体质判)+C(穷举提取) 三视角并行+合并的多视角闭环 → 用三视角冗余兜住单视角的非确定性。若要给审计单独换强模型(如 gpt-5.4)，把这里从 null 改成模型名即可，无需改代码。",
+    "audit_panel_models": [
+      "deepseek-r1:1.5b",
+      "deepseek-r1:1.5b",
+      "deepseek-r1:1.5b"
+    ],
+    "_audit_panel_note": "Three adversary models used for the reverse-identification audit"
+  }
+}
